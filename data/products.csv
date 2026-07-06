@@ -1,501 +1,501 @@
 product_id,product_name,category,brand,unit_price,supplier_id,warehouse_id,safety_stock,reorder_point
-PROD00001,Urban Beauty Item 1,Beauty,Fresh,442.92,SUP015,WH003,385,562
-PROD00002,Prime Health Item 2,Health,Zenith,374.77,SUP014,WH007,176,416
-PROD00003,Urban Beauty Item 3,Beauty,Metro,50.0,SUP002,WH002,120,300
-PROD00004,Prime Apparel Item 4,Apparel,Fresh,300.22,SUP013,WH007,455,679
-PROD00005,Zenith Automotive Item 5,Automotive,Apex,341.74,SUP004,WH005,333,603
-PROD00006,Nova Beauty Item 6,Beauty,Prime,229.59,SUP009,WH003,200,361
-PROD00007,Zenith Home Goods Item 7,Home Goods,Urban,80.66,SUP006,WH001,480,693
-PROD00008,Metro Beauty Item 8,Beauty,Core,439.97,SUP010,WH004,59,137
-PROD00009,Urban Electronics Item 9,Electronics,Nova,47.4,SUP016,WH002,499,694
-PROD00010,Prime Apparel Item 10,Apparel,Prime,136.2,SUP020,WH007,387,558
-PROD00011,Urban Grocery Item 11,Grocery,Fresh,497.6,SUP012,WH008,415,544
-PROD00012,Nova Automotive Item 12,Automotive,Nova,172.35,SUP019,WH004,176,283
-PROD00013,Apex Grocery Item 13,Grocery,Apex,118.33,SUP002,WH006,86,317
-PROD00014,Urban Home Goods Item 14,Home Goods,Metro,111.05,SUP005,WH008,192,413
-PROD00015,Metro Grocery Item 15,Grocery,Urban,51.69,SUP014,WH006,463,617
-PROD00016,Fresh Office Supplies Item 16,Office Supplies,Apex,338.32,SUP004,WH001,289,560
-PROD00017,Core Office Supplies Item 17,Office Supplies,Nova,128.08,SUP007,WH008,459,729
-PROD00018,Fresh Apparel Item 18,Apparel,Metro,128.65,SUP003,WH008,143,264
-PROD00019,Apex Home Goods Item 19,Home Goods,Apex,484.65,SUP008,WH003,383,571
-PROD00020,Metro Office Supplies Item 20,Office Supplies,Fresh,451.71,SUP006,WH007,296,400
-PROD00021,Fresh Electronics Item 21,Electronics,Metro,146.2,SUP018,WH008,185,472
-PROD00022,Urban Apparel Item 22,Apparel,Apex,291.69,SUP018,WH001,201,306
-PROD00023,Apex Beauty Item 23,Beauty,Metro,253.91,SUP017,WH003,75,274
-PROD00024,Nova Electronics Item 24,Electronics,Nova,299.54,SUP008,WH007,485,582
-PROD00025,Urban Home Goods Item 25,Home Goods,Apex,311.59,SUP014,WH006,346,548
-PROD00026,Urban Health Item 26,Health,Core,123.15,SUP013,WH003,392,625
-PROD00027,Metro Health Item 27,Health,Nova,9.61,SUP020,WH002,211,498
-PROD00028,Urban Home Goods Item 28,Home Goods,Prime,466.96,SUP003,WH004,309,426
-PROD00029,Zenith Beauty Item 29,Beauty,Zenith,307.78,SUP017,WH001,130,292
-PROD00030,Nova Health Item 30,Health,Zenith,62.14,SUP004,WH003,499,583
-PROD00031,Zenith Health Item 31,Health,Core,105.78,SUP009,WH008,359,462
-PROD00032,Apex Health Item 32,Health,Fresh,415.53,SUP002,WH001,97,309
-PROD00033,Prime Beauty Item 33,Beauty,Zenith,84.98,SUP015,WH007,376,676
-PROD00034,Nova Electronics Item 34,Electronics,Prime,275.07,SUP012,WH003,88,379
-PROD00035,Prime Office Supplies Item 35,Office Supplies,Core,450.0,SUP002,WH006,71,199
-PROD00036,Urban Grocery Item 36,Grocery,Core,391.16,SUP014,WH003,391,467
-PROD00037,Prime Grocery Item 37,Grocery,Prime,441.3,SUP001,WH003,459,716
-PROD00038,Fresh Beauty Item 38,Beauty,Urban,137.07,SUP004,WH007,460,681
-PROD00039,Metro Electronics Item 39,Electronics,Metro,178.08,SUP008,WH004,163,264
-PROD00040,Urban Electronics Item 40,Electronics,Zenith,432.85,SUP009,WH006,254,388
-PROD00041,Core Office Supplies Item 41,Office Supplies,Zenith,93.39,SUP009,WH001,64,143
-PROD00042,Fresh Home Goods Item 42,Home Goods,Core,221.01,SUP017,WH002,226,462
-PROD00043,Urban Office Supplies Item 43,Office Supplies,Fresh,5.84,SUP018,WH004,180,241
-PROD00044,Fresh Beauty Item 44,Beauty,Core,313.46,SUP004,WH005,85,377
-PROD00045,Fresh Health Item 45,Health,Zenith,279.43,SUP007,WH007,217,370
-PROD00046,Prime Office Supplies Item 46,Office Supplies,Zenith,206.01,SUP001,WH005,365,560
-PROD00047,Urban Health Item 47,Health,Core,235.17,SUP015,WH004,270,521
-PROD00048,Prime Automotive Item 48,Automotive,Zenith,260.15,SUP020,WH006,387,458
-PROD00049,Urban Home Goods Item 49,Home Goods,Urban,404.25,SUP005,WH001,394,523
-PROD00050,Urban Electronics Item 50,Electronics,Nova,230.43,SUP019,WH004,293,499
-PROD00051,Metro Office Supplies Item 51,Office Supplies,Prime,329.75,SUP001,WH002,254,366
-PROD00052,Urban Office Supplies Item 52,Office Supplies,Metro,29.86,SUP008,WH002,140,395
-PROD00053,Prime Automotive Item 53,Automotive,Core,475.27,SUP015,WH007,460,628
-PROD00054,Prime Automotive Item 54,Automotive,Metro,227.78,SUP008,WH005,430,700
-PROD00055,Urban Automotive Item 55,Automotive,Nova,358.2,SUP008,WH005,190,352
-PROD00056,Core Beauty Item 56,Beauty,Prime,79.66,SUP013,WH003,326,396
-PROD00057,Nova Grocery Item 57,Grocery,Core,273.59,SUP014,WH001,262,416
-PROD00058,Fresh Grocery Item 58,Grocery,Apex,429.08,SUP019,WH007,249,530
-PROD00059,Apex Automotive Item 59,Automotive,Fresh,427.46,SUP014,WH004,230,356
-PROD00060,Urban Automotive Item 60,Automotive,Metro,19.37,SUP011,WH007,189,350
-PROD00061,Metro Apparel Item 61,Apparel,Apex,453.93,SUP019,WH001,115,324
-PROD00062,Fresh Home Goods Item 62,Home Goods,Metro,94.96,SUP009,WH007,119,390
-PROD00063,Urban Beauty Item 63,Beauty,Core,381.81,SUP013,WH005,282,415
-PROD00064,Zenith Office Supplies Item 64,Office Supplies,Metro,14.59,SUP018,WH001,477,547
-PROD00065,Urban Beauty Item 65,Beauty,Apex,378.35,SUP008,WH004,382,449
-PROD00066,Prime Electronics Item 66,Electronics,Metro,336.38,SUP019,WH004,172,254
-PROD00067,Zenith Automotive Item 67,Automotive,Prime,304.92,SUP004,WH003,442,586
-PROD00068,Nova Health Item 68,Health,Zenith,290.02,SUP013,WH007,346,402
-PROD00069,Nova Grocery Item 69,Grocery,Urban,55.44,SUP010,WH002,353,579
-PROD00070,Core Electronics Item 70,Electronics,Core,39.13,SUP011,WH001,322,481
-PROD00071,Metro Office Supplies Item 71,Office Supplies,Core,319.61,SUP015,WH003,104,264
-PROD00072,Prime Office Supplies Item 72,Office Supplies,Zenith,309.88,SUP018,WH008,425,608
-PROD00073,Fresh Automotive Item 73,Automotive,Zenith,164.54,SUP008,WH002,472,709
-PROD00074,Metro Health Item 74,Health,Metro,287.08,SUP013,WH006,174,416
-PROD00075,Metro Electronics Item 75,Electronics,Prime,246.34,SUP012,WH005,485,618
-PROD00076,Zenith Beauty Item 76,Beauty,Zenith,280.12,SUP017,WH004,500,702
-PROD00077,Urban Home Goods Item 77,Home Goods,Metro,279.81,SUP008,WH008,418,572
-PROD00078,Metro Automotive Item 78,Automotive,Nova,150.65,SUP013,WH004,455,509
-PROD00079,Core Health Item 79,Health,Core,215.62,SUP018,WH006,292,483
-PROD00080,Metro Beauty Item 80,Beauty,Zenith,119.12,SUP007,WH006,188,316
-PROD00081,Prime Home Goods Item 81,Home Goods,Metro,141.87,SUP019,WH005,148,253
-PROD00082,Urban Home Goods Item 82,Home Goods,Core,93.82,SUP001,WH003,201,309
-PROD00083,Apex Health Item 83,Health,Zenith,350.22,SUP005,WH008,77,268
-PROD00084,Apex Home Goods Item 84,Home Goods,Metro,241.96,SUP011,WH003,343,465
-PROD00085,Zenith Electronics Item 85,Electronics,Nova,411.95,SUP013,WH008,491,663
-PROD00086,Apex Home Goods Item 86,Home Goods,Zenith,47.16,SUP008,WH002,127,215
-PROD00087,Urban Office Supplies Item 87,Office Supplies,Fresh,228.0,SUP015,WH005,447,630
-PROD00088,Zenith Office Supplies Item 88,Office Supplies,Apex,306.77,SUP004,WH004,341,549
-PROD00089,Zenith Grocery Item 89,Grocery,Prime,123.73,SUP018,WH002,388,458
-PROD00090,Apex Apparel Item 90,Apparel,Metro,149.17,SUP008,WH005,259,424
-PROD00091,Metro Health Item 91,Health,Urban,462.34,SUP019,WH004,86,311
-PROD00092,Nova Office Supplies Item 92,Office Supplies,Prime,454.66,SUP005,WH002,328,435
-PROD00093,Prime Electronics Item 93,Electronics,Zenith,222.38,SUP015,WH005,455,583
-PROD00094,Zenith Office Supplies Item 94,Office Supplies,Metro,221.69,SUP020,WH001,306,494
-PROD00095,Core Office Supplies Item 95,Office Supplies,Apex,50.21,SUP019,WH001,359,473
-PROD00096,Apex Health Item 96,Health,Prime,237.9,SUP015,WH005,440,683
-PROD00097,Fresh Apparel Item 97,Apparel,Metro,484.68,SUP016,WH006,375,633
-PROD00098,Core Office Supplies Item 98,Office Supplies,Nova,429.58,SUP011,WH007,214,435
-PROD00099,Zenith Automotive Item 99,Automotive,Fresh,407.72,SUP018,WH001,389,680
-PROD00100,Nova Automotive Item 100,Automotive,Core,62.38,SUP013,WH001,211,325
-PROD00101,Fresh Automotive Item 101,Automotive,Core,313.2,SUP016,WH008,77,175
-PROD00102,Urban Electronics Item 102,Electronics,Prime,464.2,SUP015,WH008,186,376
-PROD00103,Apex Home Goods Item 103,Home Goods,Urban,356.34,SUP010,WH001,372,577
-PROD00104,Nova Office Supplies Item 104,Office Supplies,Nova,233.42,SUP004,WH003,165,430
-PROD00105,Zenith Automotive Item 105,Automotive,Zenith,210.67,SUP016,WH008,310,540
-PROD00106,Metro Grocery Item 106,Grocery,Fresh,99.35,SUP020,WH003,332,419
-PROD00107,Zenith Home Goods Item 107,Home Goods,Fresh,173.24,SUP017,WH005,445,697
-PROD00108,Zenith Electronics Item 108,Electronics,Metro,433.3,SUP015,WH008,421,547
-PROD00109,Core Beauty Item 109,Beauty,Fresh,230.4,SUP011,WH004,332,577
-PROD00110,Fresh Grocery Item 110,Grocery,Fresh,26.61,SUP016,WH007,169,438
-PROD00111,Prime Office Supplies Item 111,Office Supplies,Apex,67.49,SUP019,WH006,303,599
-PROD00112,Metro Home Goods Item 112,Home Goods,Metro,12.6,SUP005,WH007,101,285
-PROD00113,Nova Apparel Item 113,Apparel,Zenith,172.59,SUP013,WH002,290,540
-PROD00114,Fresh Beauty Item 114,Beauty,Metro,436.83,SUP002,WH002,212,422
-PROD00115,Zenith Grocery Item 115,Grocery,Nova,219.82,SUP004,WH002,166,407
-PROD00116,Prime Automotive Item 116,Automotive,Apex,27.77,SUP002,WH005,405,531
-PROD00117,Core Beauty Item 117,Beauty,Urban,267.93,SUP019,WH003,270,357
-PROD00118,Prime Apparel Item 118,Apparel,Fresh,311.76,SUP008,WH008,90,296
-PROD00119,Urban Apparel Item 119,Apparel,Zenith,232.49,SUP001,WH008,286,499
-PROD00120,Prime Health Item 120,Health,Core,493.89,SUP010,WH007,87,250
-PROD00121,Metro Health Item 121,Health,Urban,499.69,SUP016,WH002,482,609
-PROD00122,Fresh Grocery Item 122,Grocery,Zenith,496.38,SUP010,WH001,342,483
-PROD00123,Zenith Office Supplies Item 123,Office Supplies,Apex,455.76,SUP016,WH005,54,248
-PROD00124,Core Grocery Item 124,Grocery,Urban,312.34,SUP005,WH002,162,374
-PROD00125,Zenith Electronics Item 125,Electronics,Apex,291.89,SUP005,WH002,453,615
-PROD00126,Core Health Item 126,Health,Prime,104.39,SUP018,WH006,432,588
-PROD00127,Prime Health Item 127,Health,Metro,483.86,SUP010,WH006,181,464
-PROD00128,Metro Home Goods Item 128,Home Goods,Urban,430.77,SUP013,WH006,88,174
-PROD00129,Fresh Home Goods Item 129,Home Goods,Nova,230.12,SUP009,WH007,57,174
-PROD00130,Nova Beauty Item 130,Beauty,Metro,17.39,SUP018,WH006,395,504
-PROD00131,Nova Grocery Item 131,Grocery,Metro,455.15,SUP010,WH007,375,635
-PROD00132,Prime Home Goods Item 132,Home Goods,Apex,155.66,SUP016,WH002,73,365
-PROD00133,Urban Home Goods Item 133,Home Goods,Fresh,229.55,SUP018,WH007,325,409
-PROD00134,Fresh Apparel Item 134,Apparel,Metro,309.75,SUP009,WH001,385,460
-PROD00135,Urban Beauty Item 135,Beauty,Urban,428.45,SUP004,WH006,277,440
-PROD00136,Apex Beauty Item 136,Beauty,Urban,484.26,SUP015,WH002,253,373
-PROD00137,Apex Grocery Item 137,Grocery,Core,125.57,SUP005,WH004,75,326
-PROD00138,Urban Home Goods Item 138,Home Goods,Urban,167.64,SUP005,WH001,350,455
-PROD00139,Prime Health Item 139,Health,Zenith,400.26,SUP004,WH001,116,304
-PROD00140,Apex Apparel Item 140,Apparel,Urban,296.48,SUP001,WH003,233,485
-PROD00141,Apex Health Item 141,Health,Fresh,265.41,SUP003,WH008,114,353
-PROD00142,Core Automotive Item 142,Automotive,Nova,228.74,SUP008,WH001,312,513
-PROD00143,Metro Health Item 143,Health,Apex,35.11,SUP016,WH007,379,675
-PROD00144,Nova Office Supplies Item 144,Office Supplies,Metro,41.38,SUP003,WH006,301,533
-PROD00145,Nova Apparel Item 145,Apparel,Core,193.55,SUP020,WH005,114,234
-PROD00146,Fresh Automotive Item 146,Automotive,Nova,427.13,SUP018,WH004,100,353
-PROD00147,Metro Office Supplies Item 147,Office Supplies,Core,414.57,SUP013,WH007,166,321
-PROD00148,Core Home Goods Item 148,Home Goods,Zenith,190.28,SUP005,WH008,268,398
-PROD00149,Nova Home Goods Item 149,Home Goods,Nova,218.78,SUP012,WH003,475,546
-PROD00150,Core Electronics Item 150,Electronics,Fresh,180.03,SUP014,WH001,393,474
-PROD00151,Zenith Health Item 151,Health,Urban,81.59,SUP016,WH004,230,306
-PROD00152,Core Home Goods Item 152,Home Goods,Core,61.87,SUP009,WH004,482,674
-PROD00153,Apex Office Supplies Item 153,Office Supplies,Zenith,19.33,SUP009,WH005,361,648
-PROD00154,Core Beauty Item 154,Beauty,Prime,285.33,SUP013,WH002,53,149
-PROD00155,Apex Apparel Item 155,Apparel,Urban,191.22,SUP015,WH006,96,337
-PROD00156,Core Apparel Item 156,Apparel,Core,389.53,SUP019,WH002,209,443
-PROD00157,Prime Electronics Item 157,Electronics,Apex,338.61,SUP009,WH008,130,373
-PROD00158,Metro Office Supplies Item 158,Office Supplies,Fresh,140.22,SUP017,WH002,360,523
-PROD00159,Fresh Beauty Item 159,Beauty,Metro,265.83,SUP010,WH001,106,228
-PROD00160,Fresh Grocery Item 160,Grocery,Apex,106.19,SUP007,WH003,356,420
-PROD00161,Zenith Health Item 161,Health,Apex,251.21,SUP014,WH003,217,297
-PROD00162,Fresh Apparel Item 162,Apparel,Urban,252.63,SUP012,WH002,322,552
-PROD00163,Apex Office Supplies Item 163,Office Supplies,Metro,460.98,SUP011,WH007,273,327
-PROD00164,Fresh Office Supplies Item 164,Office Supplies,Fresh,15.32,SUP011,WH003,198,277
-PROD00165,Core Automotive Item 165,Automotive,Nova,125.44,SUP019,WH007,95,256
-PROD00166,Fresh Home Goods Item 166,Home Goods,Core,114.68,SUP006,WH002,495,624
-PROD00167,Urban Home Goods Item 167,Home Goods,Core,365.05,SUP005,WH004,447,586
-PROD00168,Prime Home Goods Item 168,Home Goods,Prime,303.19,SUP003,WH003,181,281
-PROD00169,Metro Automotive Item 169,Automotive,Metro,342.16,SUP019,WH006,436,630
-PROD00170,Prime Beauty Item 170,Beauty,Metro,223.89,SUP010,WH005,275,342
-PROD00171,Core Electronics Item 171,Electronics,Zenith,233.56,SUP002,WH001,309,377
-PROD00172,Zenith Beauty Item 172,Beauty,Nova,309.43,SUP017,WH007,89,304
-PROD00173,Apex Automotive Item 173,Automotive,Urban,164.16,SUP016,WH003,280,562
-PROD00174,Metro Electronics Item 174,Electronics,Core,491.28,SUP003,WH003,102,359
-PROD00175,Urban Electronics Item 175,Electronics,Metro,264.41,SUP020,WH003,412,574
-PROD00176,Core Beauty Item 176,Beauty,Fresh,388.36,SUP020,WH001,194,343
-PROD00177,Nova Beauty Item 177,Beauty,Fresh,145.65,SUP020,WH003,218,292
-PROD00178,Nova Beauty Item 178,Beauty,Prime,458.79,SUP010,WH007,348,567
-PROD00179,Nova Apparel Item 179,Apparel,Fresh,323.53,SUP011,WH003,208,401
-PROD00180,Fresh Home Goods Item 180,Home Goods,Apex,184.49,SUP006,WH004,310,452
-PROD00181,Metro Beauty Item 181,Beauty,Prime,81.7,SUP010,WH002,148,255
-PROD00182,Core Electronics Item 182,Electronics,Prime,300.64,SUP005,WH003,498,744
-PROD00183,Prime Apparel Item 183,Apparel,Apex,208.38,SUP008,WH008,419,581
-PROD00184,Metro Health Item 184,Health,Urban,158.19,SUP016,WH004,169,355
-PROD00185,Metro Beauty Item 185,Beauty,Zenith,390.17,SUP017,WH007,286,532
-PROD00186,Urban Apparel Item 186,Apparel,Prime,437.14,SUP002,WH008,460,664
-PROD00187,Nova Beauty Item 187,Beauty,Nova,146.11,SUP006,WH005,414,680
-PROD00188,Prime Automotive Item 188,Automotive,Nova,473.47,SUP008,WH008,475,636
-PROD00189,Apex Beauty Item 189,Beauty,Fresh,253.49,SUP008,WH007,262,325
-PROD00190,Core Home Goods Item 190,Home Goods,Core,465.76,SUP011,WH003,164,221
-PROD00191,Apex Apparel Item 191,Apparel,Metro,349.56,SUP005,WH008,196,480
-PROD00192,Apex Automotive Item 192,Automotive,Zenith,111.75,SUP005,WH007,90,144
-PROD00193,Zenith Home Goods Item 193,Home Goods,Nova,28.64,SUP014,WH008,171,298
-PROD00194,Nova Home Goods Item 194,Home Goods,Metro,300.39,SUP001,WH004,478,759
-PROD00195,Zenith Apparel Item 195,Apparel,Core,124.08,SUP014,WH003,269,319
-PROD00196,Core Home Goods Item 196,Home Goods,Apex,198.27,SUP016,WH001,84,378
-PROD00197,Core Office Supplies Item 197,Office Supplies,Apex,181.76,SUP003,WH006,179,420
-PROD00198,Nova Grocery Item 198,Grocery,Core,71.04,SUP012,WH006,445,643
-PROD00199,Metro Apparel Item 199,Apparel,Prime,406.69,SUP003,WH008,406,578
-PROD00200,Zenith Electronics Item 200,Electronics,Urban,443.47,SUP011,WH005,153,214
-PROD00201,Metro Office Supplies Item 201,Office Supplies,Urban,146.62,SUP002,WH006,179,238
-PROD00202,Nova Health Item 202,Health,Fresh,445.3,SUP015,WH007,459,603
-PROD00203,Prime Beauty Item 203,Beauty,Metro,186.84,SUP017,WH005,304,531
-PROD00204,Fresh Home Goods Item 204,Home Goods,Prime,275.01,SUP011,WH002,90,250
-PROD00205,Core Home Goods Item 205,Home Goods,Zenith,225.73,SUP014,WH003,388,513
-PROD00206,Core Automotive Item 206,Automotive,Core,309.35,SUP014,WH005,278,338
-PROD00207,Nova Electronics Item 207,Electronics,Fresh,184.84,SUP006,WH001,393,606
-PROD00208,Metro Apparel Item 208,Apparel,Nova,121.82,SUP012,WH006,67,149
-PROD00209,Apex Office Supplies Item 209,Office Supplies,Metro,474.67,SUP012,WH008,359,448
-PROD00210,Prime Home Goods Item 210,Home Goods,Fresh,160.62,SUP009,WH004,321,464
-PROD00211,Apex Home Goods Item 211,Home Goods,Metro,261.28,SUP018,WH002,426,523
-PROD00212,Zenith Health Item 212,Health,Urban,498.2,SUP010,WH008,410,574
-PROD00213,Nova Grocery Item 213,Grocery,Nova,228.76,SUP015,WH002,119,387
-PROD00214,Core Beauty Item 214,Beauty,Zenith,446.21,SUP006,WH003,413,479
-PROD00215,Urban Beauty Item 215,Beauty,Prime,122.18,SUP016,WH001,112,213
-PROD00216,Core Beauty Item 216,Beauty,Prime,307.91,SUP003,WH002,289,544
-PROD00217,Fresh Health Item 217,Health,Metro,265.22,SUP014,WH002,417,651
-PROD00218,Core Apparel Item 218,Apparel,Metro,235.59,SUP017,WH006,378,446
-PROD00219,Prime Apparel Item 219,Apparel,Prime,219.15,SUP002,WH002,443,740
-PROD00220,Zenith Apparel Item 220,Apparel,Core,467.7,SUP008,WH006,134,225
-PROD00221,Nova Health Item 221,Health,Zenith,66.96,SUP010,WH002,178,278
-PROD00222,Prime Apparel Item 222,Apparel,Core,422.05,SUP019,WH001,137,355
-PROD00223,Nova Electronics Item 223,Electronics,Zenith,327.31,SUP019,WH007,73,365
-PROD00224,Metro Electronics Item 224,Electronics,Zenith,322.74,SUP010,WH008,371,560
-PROD00225,Fresh Grocery Item 225,Grocery,Nova,345.86,SUP006,WH008,202,368
-PROD00226,Metro Office Supplies Item 226,Office Supplies,Core,305.3,SUP011,WH006,287,389
-PROD00227,Fresh Beauty Item 227,Beauty,Core,259.92,SUP004,WH006,116,360
-PROD00228,Metro Grocery Item 228,Grocery,Metro,127.72,SUP004,WH001,112,230
-PROD00229,Fresh Health Item 229,Health,Fresh,127.89,SUP006,WH006,492,699
-PROD00230,Urban Beauty Item 230,Beauty,Metro,498.0,SUP015,WH008,440,530
-PROD00231,Metro Health Item 231,Health,Fresh,255.2,SUP008,WH004,61,134
-PROD00232,Apex Beauty Item 232,Beauty,Metro,300.77,SUP016,WH005,75,197
-PROD00233,Nova Electronics Item 233,Electronics,Zenith,365.12,SUP013,WH006,270,354
-PROD00234,Fresh Electronics Item 234,Electronics,Urban,184.45,SUP010,WH002,76,271
-PROD00235,Metro Office Supplies Item 235,Office Supplies,Zenith,413.53,SUP020,WH002,441,631
-PROD00236,Nova Apparel Item 236,Apparel,Core,281.13,SUP012,WH003,251,396
-PROD00237,Fresh Grocery Item 237,Grocery,Apex,24.26,SUP011,WH008,306,366
-PROD00238,Prime Automotive Item 238,Automotive,Prime,167.34,SUP020,WH006,360,638
-PROD00239,Fresh Apparel Item 239,Apparel,Zenith,298.89,SUP017,WH008,365,604
-PROD00240,Metro Health Item 240,Health,Core,168.96,SUP004,WH007,467,521
-PROD00241,Apex Health Item 241,Health,Zenith,483.7,SUP019,WH004,355,526
-PROD00242,Metro Electronics Item 242,Electronics,Fresh,78.15,SUP008,WH001,137,321
-PROD00243,Urban Home Goods Item 243,Home Goods,Core,212.3,SUP014,WH004,59,221
-PROD00244,Metro Office Supplies Item 244,Office Supplies,Apex,354.36,SUP017,WH004,496,763
-PROD00245,Metro Beauty Item 245,Beauty,Core,478.56,SUP015,WH006,319,465
-PROD00246,Zenith Beauty Item 246,Beauty,Urban,478.88,SUP009,WH005,362,535
-PROD00247,Zenith Grocery Item 247,Grocery,Urban,346.67,SUP016,WH006,444,567
-PROD00248,Core Automotive Item 248,Automotive,Zenith,147.46,SUP019,WH007,336,625
-PROD00249,Core Office Supplies Item 249,Office Supplies,Prime,148.77,SUP010,WH002,445,700
-PROD00250,Metro Beauty Item 250,Beauty,Metro,110.92,SUP018,WH005,385,500
-PROD00251,Prime Health Item 251,Health,Urban,125.02,SUP017,WH004,105,312
-PROD00252,Apex Grocery Item 252,Grocery,Core,360.09,SUP004,WH003,101,256
-PROD00253,Prime Electronics Item 253,Electronics,Metro,241.34,SUP007,WH005,258,475
-PROD00254,Zenith Beauty Item 254,Beauty,Nova,327.89,SUP008,WH001,380,445
-PROD00255,Fresh Apparel Item 255,Apparel,Apex,498.6,SUP013,WH008,478,573
-PROD00256,Zenith Apparel Item 256,Apparel,Apex,152.7,SUP020,WH002,498,557
-PROD00257,Zenith Beauty Item 257,Beauty,Metro,445.18,SUP005,WH008,282,496
-PROD00258,Urban Health Item 258,Health,Core,85.43,SUP015,WH005,464,542
-PROD00259,Apex Apparel Item 259,Apparel,Zenith,286.05,SUP007,WH003,427,563
-PROD00260,Fresh Office Supplies Item 260,Office Supplies,Nova,203.41,SUP004,WH003,313,446
-PROD00261,Metro Apparel Item 261,Apparel,Urban,8.38,SUP013,WH004,215,504
-PROD00262,Zenith Automotive Item 262,Automotive,Apex,134.47,SUP012,WH004,218,345
-PROD00263,Nova Electronics Item 263,Electronics,Prime,205.68,SUP017,WH005,288,416
-PROD00264,Zenith Home Goods Item 264,Home Goods,Urban,113.47,SUP005,WH008,238,445
-PROD00265,Metro Apparel Item 265,Apparel,Core,210.84,SUP018,WH008,432,637
-PROD00266,Urban Grocery Item 266,Grocery,Nova,265.13,SUP017,WH006,398,641
-PROD00267,Nova Home Goods Item 267,Home Goods,Urban,288.49,SUP005,WH003,81,343
-PROD00268,Metro Beauty Item 268,Beauty,Urban,359.87,SUP016,WH002,109,333
-PROD00269,Apex Automotive Item 269,Automotive,Fresh,231.12,SUP002,WH008,282,365
-PROD00270,Apex Health Item 270,Health,Apex,374.17,SUP019,WH002,252,367
-PROD00271,Fresh Electronics Item 271,Electronics,Nova,272.88,SUP002,WH002,226,455
-PROD00272,Apex Automotive Item 272,Automotive,Prime,385.64,SUP014,WH006,196,350
-PROD00273,Metro Office Supplies Item 273,Office Supplies,Fresh,190.94,SUP018,WH003,495,779
-PROD00274,Nova Beauty Item 274,Beauty,Fresh,266.78,SUP008,WH001,141,328
-PROD00275,Zenith Electronics Item 275,Electronics,Fresh,268.31,SUP008,WH004,287,509
-PROD00276,Core Automotive Item 276,Automotive,Urban,469.02,SUP004,WH001,129,249
-PROD00277,Apex Office Supplies Item 277,Office Supplies,Nova,54.94,SUP002,WH008,173,275
-PROD00278,Urban Electronics Item 278,Electronics,Fresh,222.29,SUP018,WH004,429,490
-PROD00279,Prime Electronics Item 279,Electronics,Urban,408.81,SUP019,WH006,307,431
-PROD00280,Urban Beauty Item 280,Beauty,Prime,492.92,SUP017,WH004,204,478
-PROD00281,Zenith Office Supplies Item 281,Office Supplies,Prime,314.87,SUP014,WH008,190,255
-PROD00282,Core Electronics Item 282,Electronics,Fresh,393.97,SUP011,WH007,379,600
-PROD00283,Prime Office Supplies Item 283,Office Supplies,Prime,378.44,SUP016,WH004,203,349
-PROD00284,Zenith Grocery Item 284,Grocery,Prime,403.86,SUP002,WH007,489,720
-PROD00285,Prime Office Supplies Item 285,Office Supplies,Zenith,105.65,SUP003,WH008,248,360
-PROD00286,Nova Beauty Item 286,Beauty,Urban,30.51,SUP013,WH001,324,559
-PROD00287,Urban Home Goods Item 287,Home Goods,Urban,242.3,SUP011,WH005,461,705
-PROD00288,Urban Electronics Item 288,Electronics,Nova,374.71,SUP016,WH004,147,443
-PROD00289,Fresh Grocery Item 289,Grocery,Core,388.88,SUP013,WH008,172,363
-PROD00290,Zenith Beauty Item 290,Beauty,Metro,235.67,SUP016,WH006,183,325
-PROD00291,Core Grocery Item 291,Grocery,Apex,283.45,SUP008,WH003,210,365
-PROD00292,Zenith Electronics Item 292,Electronics,Fresh,151.12,SUP007,WH006,333,622
-PROD00293,Fresh Grocery Item 293,Grocery,Urban,252.15,SUP011,WH005,341,604
-PROD00294,Metro Automotive Item 294,Automotive,Core,88.79,SUP018,WH008,285,378
-PROD00295,Apex Apparel Item 295,Apparel,Nova,472.87,SUP002,WH001,318,376
-PROD00296,Prime Office Supplies Item 296,Office Supplies,Urban,38.64,SUP005,WH001,481,692
-PROD00297,Metro Grocery Item 297,Grocery,Metro,331.35,SUP001,WH001,241,306
-PROD00298,Apex Office Supplies Item 298,Office Supplies,Zenith,270.19,SUP010,WH001,58,243
-PROD00299,Prime Office Supplies Item 299,Office Supplies,Nova,264.57,SUP008,WH004,104,389
-PROD00300,Core Health Item 300,Health,Fresh,44.11,SUP013,WH008,186,439
-PROD00301,Urban Grocery Item 301,Grocery,Nova,328.6,SUP002,WH002,203,428
-PROD00302,Fresh Office Supplies Item 302,Office Supplies,Metro,32.78,SUP001,WH003,243,434
-PROD00303,Metro Home Goods Item 303,Home Goods,Core,285.1,SUP004,WH001,482,643
-PROD00304,Urban Grocery Item 304,Grocery,Metro,139.19,SUP003,WH005,494,721
-PROD00305,Prime Electronics Item 305,Electronics,Apex,480.93,SUP019,WH003,485,615
-PROD00306,Nova Office Supplies Item 306,Office Supplies,Urban,285.51,SUP013,WH006,203,294
-PROD00307,Prime Office Supplies Item 307,Office Supplies,Nova,252.89,SUP012,WH001,454,680
-PROD00308,Fresh Home Goods Item 308,Home Goods,Nova,173.59,SUP020,WH007,168,432
-PROD00309,Apex Beauty Item 309,Beauty,Metro,247.85,SUP012,WH007,374,493
-PROD00310,Prime Office Supplies Item 310,Office Supplies,Fresh,47.42,SUP020,WH005,398,597
-PROD00311,Nova Grocery Item 311,Grocery,Prime,193.1,SUP005,WH007,92,210
-PROD00312,Core Beauty Item 312,Beauty,Apex,471.77,SUP015,WH006,104,177
-PROD00313,Nova Health Item 313,Health,Prime,218.33,SUP018,WH007,117,189
-PROD00314,Apex Home Goods Item 314,Home Goods,Nova,300.48,SUP011,WH007,95,235
-PROD00315,Zenith Electronics Item 315,Electronics,Nova,363.8,SUP018,WH004,261,410
-PROD00316,Fresh Apparel Item 316,Apparel,Zenith,154.06,SUP016,WH003,136,221
-PROD00317,Prime Home Goods Item 317,Home Goods,Fresh,153.38,SUP003,WH006,272,392
-PROD00318,Urban Health Item 318,Health,Metro,298.93,SUP007,WH008,419,629
-PROD00319,Prime Home Goods Item 319,Home Goods,Fresh,169.45,SUP020,WH007,205,256
-PROD00320,Metro Beauty Item 320,Beauty,Prime,153.72,SUP020,WH004,221,381
-PROD00321,Core Automotive Item 321,Automotive,Fresh,484.52,SUP010,WH008,140,436
-PROD00322,Core Grocery Item 322,Grocery,Fresh,185.68,SUP019,WH004,242,363
-PROD00323,Apex Apparel Item 323,Apparel,Urban,222.04,SUP010,WH002,422,590
-PROD00324,Metro Office Supplies Item 324,Office Supplies,Zenith,124.8,SUP005,WH007,121,333
-PROD00325,Nova Office Supplies Item 325,Office Supplies,Metro,293.21,SUP018,WH007,279,482
-PROD00326,Core Electronics Item 326,Electronics,Nova,59.14,SUP008,WH006,409,688
-PROD00327,Apex Apparel Item 327,Apparel,Fresh,483.57,SUP011,WH007,338,553
-PROD00328,Apex Home Goods Item 328,Home Goods,Urban,257.78,SUP017,WH004,100,216
-PROD00329,Core Automotive Item 329,Automotive,Prime,175.76,SUP001,WH008,250,418
-PROD00330,Zenith Home Goods Item 330,Home Goods,Nova,62.45,SUP005,WH006,262,547
-PROD00331,Core Health Item 331,Health,Urban,262.95,SUP012,WH008,283,533
-PROD00332,Metro Home Goods Item 332,Home Goods,Metro,162.86,SUP010,WH001,419,647
-PROD00333,Apex Home Goods Item 333,Home Goods,Nova,340.18,SUP006,WH004,484,621
-PROD00334,Prime Apparel Item 334,Apparel,Fresh,479.44,SUP008,WH007,219,412
-PROD00335,Prime Apparel Item 335,Apparel,Fresh,200.81,SUP020,WH004,377,595
-PROD00336,Fresh Automotive Item 336,Automotive,Urban,106.86,SUP003,WH002,249,300
-PROD00337,Core Apparel Item 337,Apparel,Metro,61.41,SUP016,WH006,216,316
-PROD00338,Fresh Office Supplies Item 338,Office Supplies,Core,179.23,SUP015,WH003,350,429
-PROD00339,Nova Health Item 339,Health,Core,63.34,SUP010,WH002,394,478
-PROD00340,Core Apparel Item 340,Apparel,Fresh,212.03,SUP005,WH007,405,491
-PROD00341,Prime Office Supplies Item 341,Office Supplies,Prime,279.68,SUP016,WH005,299,511
-PROD00342,Prime Apparel Item 342,Apparel,Metro,311.61,SUP012,WH001,211,476
-PROD00343,Prime Automotive Item 343,Automotive,Fresh,482.1,SUP017,WH008,149,407
-PROD00344,Metro Office Supplies Item 344,Office Supplies,Metro,246.91,SUP003,WH001,262,493
-PROD00345,Zenith Grocery Item 345,Grocery,Urban,271.12,SUP006,WH008,66,186
-PROD00346,Nova Automotive Item 346,Automotive,Zenith,388.68,SUP012,WH001,343,422
-PROD00347,Urban Automotive Item 347,Automotive,Urban,152.37,SUP002,WH008,267,343
-PROD00348,Core Health Item 348,Health,Nova,222.34,SUP004,WH004,491,750
-PROD00349,Core Grocery Item 349,Grocery,Fresh,87.16,SUP005,WH004,490,721
-PROD00350,Apex Grocery Item 350,Grocery,Zenith,300.44,SUP006,WH006,341,480
-PROD00351,Zenith Health Item 351,Health,Nova,72.12,SUP014,WH001,343,461
-PROD00352,Prime Health Item 352,Health,Prime,128.59,SUP011,WH004,409,680
-PROD00353,Metro Office Supplies Item 353,Office Supplies,Zenith,315.77,SUP013,WH008,122,319
-PROD00354,Nova Home Goods Item 354,Home Goods,Zenith,348.88,SUP012,WH008,256,437
-PROD00355,Core Automotive Item 355,Automotive,Nova,366.81,SUP015,WH006,347,397
-PROD00356,Fresh Home Goods Item 356,Home Goods,Fresh,413.3,SUP016,WH005,161,458
-PROD00357,Zenith Beauty Item 357,Beauty,Prime,285.24,SUP016,WH006,222,412
-PROD00358,Apex Electronics Item 358,Electronics,Metro,13.06,SUP006,WH008,100,310
-PROD00359,Apex Automotive Item 359,Automotive,Prime,441.66,SUP010,WH003,269,370
-PROD00360,Nova Health Item 360,Health,Zenith,45.8,SUP006,WH001,385,527
-PROD00361,Zenith Office Supplies Item 361,Office Supplies,Urban,217.47,SUP003,WH002,421,650
-PROD00362,Urban Electronics Item 362,Electronics,Prime,298.87,SUP017,WH008,294,363
-PROD00363,Apex Electronics Item 363,Electronics,Nova,494.14,SUP014,WH003,406,543
-PROD00364,Nova Automotive Item 364,Automotive,Nova,366.73,SUP004,WH002,167,315
-PROD00365,Core Beauty Item 365,Beauty,Fresh,387.86,SUP005,WH003,203,288
-PROD00366,Apex Home Goods Item 366,Home Goods,Prime,222.85,SUP007,WH003,362,578
-PROD00367,Metro Office Supplies Item 367,Office Supplies,Nova,448.81,SUP005,WH002,490,595
-PROD00368,Core Office Supplies Item 368,Office Supplies,Prime,127.65,SUP003,WH004,269,399
-PROD00369,Apex Health Item 369,Health,Zenith,106.7,SUP020,WH004,484,750
-PROD00370,Zenith Office Supplies Item 370,Office Supplies,Urban,249.97,SUP004,WH004,380,443
-PROD00371,Nova Automotive Item 371,Automotive,Apex,493.51,SUP011,WH003,320,597
-PROD00372,Fresh Office Supplies Item 372,Office Supplies,Prime,382.55,SUP003,WH001,237,426
-PROD00373,Apex Home Goods Item 373,Home Goods,Apex,461.68,SUP013,WH005,184,289
-PROD00374,Fresh Office Supplies Item 374,Office Supplies,Nova,322.07,SUP018,WH003,409,561
-PROD00375,Nova Health Item 375,Health,Urban,487.29,SUP005,WH006,208,278
-PROD00376,Nova Office Supplies Item 376,Office Supplies,Fresh,366.33,SUP008,WH001,208,436
-PROD00377,Nova Grocery Item 377,Grocery,Metro,308.09,SUP002,WH005,272,351
-PROD00378,Nova Apparel Item 378,Apparel,Prime,352.24,SUP006,WH008,56,287
-PROD00379,Zenith Beauty Item 379,Beauty,Prime,376.14,SUP009,WH002,135,280
-PROD00380,Core Electronics Item 380,Electronics,Zenith,264.31,SUP009,WH002,463,622
-PROD00381,Metro Automotive Item 381,Automotive,Apex,252.31,SUP019,WH003,311,453
-PROD00382,Prime Beauty Item 382,Beauty,Nova,447.66,SUP004,WH004,180,427
-PROD00383,Apex Electronics Item 383,Electronics,Apex,126.05,SUP016,WH006,489,759
-PROD00384,Prime Office Supplies Item 384,Office Supplies,Apex,278.67,SUP014,WH004,141,429
-PROD00385,Urban Beauty Item 385,Beauty,Core,139.27,SUP003,WH006,263,547
-PROD00386,Apex Home Goods Item 386,Home Goods,Apex,477.27,SUP003,WH008,141,248
-PROD00387,Zenith Health Item 387,Health,Metro,8.94,SUP007,WH005,217,289
-PROD00388,Urban Health Item 388,Health,Metro,498.9,SUP007,WH004,287,431
-PROD00389,Apex Apparel Item 389,Apparel,Urban,273.06,SUP001,WH006,259,315
-PROD00390,Fresh Electronics Item 390,Electronics,Zenith,56.45,SUP017,WH004,484,722
-PROD00391,Metro Office Supplies Item 391,Office Supplies,Prime,357.27,SUP003,WH001,80,378
-PROD00392,Fresh Grocery Item 392,Grocery,Core,231.94,SUP003,WH002,408,687
-PROD00393,Fresh Apparel Item 393,Apparel,Apex,220.32,SUP005,WH004,88,289
-PROD00394,Zenith Health Item 394,Health,Fresh,351.86,SUP011,WH006,485,615
-PROD00395,Zenith Automotive Item 395,Automotive,Urban,72.38,SUP019,WH002,169,238
-PROD00396,Nova Apparel Item 396,Apparel,Metro,160.45,SUP004,WH006,134,299
-PROD00397,Metro Grocery Item 397,Grocery,Zenith,426.98,SUP003,WH003,207,375
-PROD00398,Apex Health Item 398,Health,Core,78.42,SUP008,WH006,160,423
-PROD00399,Apex Office Supplies Item 399,Office Supplies,Zenith,410.94,SUP006,WH001,396,522
-PROD00400,Metro Office Supplies Item 400,Office Supplies,Urban,51.89,SUP004,WH003,334,575
-PROD00401,Apex Home Goods Item 401,Home Goods,Urban,69.7,SUP013,WH006,81,343
-PROD00402,Zenith Home Goods Item 402,Home Goods,Apex,498.59,SUP007,WH008,466,535
-PROD00403,Nova Apparel Item 403,Apparel,Core,65.65,SUP015,WH001,483,745
-PROD00404,Fresh Apparel Item 404,Apparel,Fresh,250.58,SUP013,WH007,470,705
-PROD00405,Core Apparel Item 405,Apparel,Prime,141.12,SUP015,WH003,159,441
-PROD00406,Urban Electronics Item 406,Electronics,Metro,208.94,SUP018,WH008,381,506
-PROD00407,Nova Electronics Item 407,Electronics,Prime,212.52,SUP017,WH004,193,341
-PROD00408,Fresh Electronics Item 408,Electronics,Core,242.44,SUP016,WH006,450,682
-PROD00409,Fresh Beauty Item 409,Beauty,Apex,162.84,SUP008,WH001,188,284
-PROD00410,Apex Health Item 410,Health,Core,384.59,SUP008,WH003,464,634
-PROD00411,Urban Home Goods Item 411,Home Goods,Zenith,269.18,SUP002,WH004,386,497
-PROD00412,Core Office Supplies Item 412,Office Supplies,Prime,92.17,SUP019,WH006,479,745
-PROD00413,Apex Beauty Item 413,Beauty,Core,474.04,SUP019,WH003,410,639
-PROD00414,Metro Grocery Item 414,Grocery,Prime,247.77,SUP003,WH001,327,456
-PROD00415,Urban Grocery Item 415,Grocery,Metro,5.34,SUP020,WH004,60,244
-PROD00416,Core Apparel Item 416,Apparel,Core,34.48,SUP005,WH003,417,512
-PROD00417,Core Home Goods Item 417,Home Goods,Fresh,295.08,SUP011,WH005,87,232
-PROD00418,Prime Beauty Item 418,Beauty,Fresh,396.96,SUP016,WH006,130,367
-PROD00419,Core Apparel Item 419,Apparel,Prime,192.3,SUP010,WH003,164,384
-PROD00420,Apex Apparel Item 420,Apparel,Fresh,426.12,SUP019,WH001,409,701
-PROD00421,Core Apparel Item 421,Apparel,Urban,321.63,SUP004,WH008,464,761
-PROD00422,Core Apparel Item 422,Apparel,Urban,176.67,SUP011,WH003,431,500
-PROD00423,Core Home Goods Item 423,Home Goods,Zenith,108.79,SUP003,WH006,278,330
-PROD00424,Nova Health Item 424,Health,Apex,196.04,SUP014,WH003,418,468
-PROD00425,Metro Office Supplies Item 425,Office Supplies,Fresh,55.21,SUP016,WH004,243,382
-PROD00426,Metro Apparel Item 426,Apparel,Apex,150.98,SUP011,WH005,87,341
-PROD00427,Nova Home Goods Item 427,Home Goods,Fresh,84.65,SUP003,WH002,225,318
-PROD00428,Metro Beauty Item 428,Beauty,Fresh,471.51,SUP006,WH007,410,467
-PROD00429,Apex Apparel Item 429,Apparel,Urban,487.33,SUP014,WH005,101,235
-PROD00430,Zenith Health Item 430,Health,Apex,199.49,SUP018,WH008,171,245
-PROD00431,Apex Apparel Item 431,Apparel,Fresh,48.38,SUP020,WH008,234,284
-PROD00432,Nova Grocery Item 432,Grocery,Prime,320.9,SUP003,WH008,63,165
-PROD00433,Zenith Home Goods Item 433,Home Goods,Metro,247.1,SUP009,WH002,451,602
-PROD00434,Prime Office Supplies Item 434,Office Supplies,Fresh,187.85,SUP015,WH001,239,515
-PROD00435,Metro Health Item 435,Health,Urban,419.35,SUP019,WH001,288,405
-PROD00436,Nova Apparel Item 436,Apparel,Core,405.05,SUP014,WH004,93,314
-PROD00437,Fresh Electronics Item 437,Electronics,Fresh,482.99,SUP016,WH004,469,652
-PROD00438,Zenith Automotive Item 438,Automotive,Apex,253.54,SUP017,WH003,90,241
-PROD00439,Metro Home Goods Item 439,Home Goods,Prime,486.22,SUP007,WH003,138,430
-PROD00440,Fresh Electronics Item 440,Electronics,Fresh,104.95,SUP005,WH005,90,314
-PROD00441,Nova Beauty Item 441,Beauty,Fresh,278.27,SUP009,WH008,94,243
-PROD00442,Fresh Electronics Item 442,Electronics,Prime,78.36,SUP019,WH002,107,263
-PROD00443,Nova Home Goods Item 443,Home Goods,Core,439.56,SUP009,WH007,452,575
-PROD00444,Metro Automotive Item 444,Automotive,Zenith,204.47,SUP020,WH007,69,163
-PROD00445,Fresh Electronics Item 445,Electronics,Urban,29.4,SUP016,WH005,500,634
-PROD00446,Apex Beauty Item 446,Beauty,Zenith,158.92,SUP016,WH002,222,481
-PROD00447,Prime Grocery Item 447,Grocery,Metro,388.15,SUP011,WH005,203,502
-PROD00448,Nova Office Supplies Item 448,Office Supplies,Urban,457.15,SUP014,WH008,146,309
-PROD00449,Apex Beauty Item 449,Beauty,Prime,37.48,SUP017,WH007,313,565
-PROD00450,Apex Apparel Item 450,Apparel,Urban,419.3,SUP008,WH001,138,237
-PROD00451,Apex Automotive Item 451,Automotive,Urban,140.62,SUP015,WH007,234,464
-PROD00452,Apex Home Goods Item 452,Home Goods,Metro,299.05,SUP006,WH008,173,318
-PROD00453,Core Beauty Item 453,Beauty,Zenith,375.74,SUP003,WH005,133,397
-PROD00454,Fresh Electronics Item 454,Electronics,Urban,429.27,SUP008,WH004,75,166
-PROD00455,Fresh Health Item 455,Health,Apex,239.68,SUP005,WH003,312,367
-PROD00456,Urban Electronics Item 456,Electronics,Zenith,357.81,SUP009,WH007,179,384
-PROD00457,Core Office Supplies Item 457,Office Supplies,Urban,236.02,SUP017,WH007,285,399
-PROD00458,Apex Home Goods Item 458,Home Goods,Core,282.92,SUP020,WH005,311,530
-PROD00459,Nova Health Item 459,Health,Core,494.24,SUP011,WH005,296,362
-PROD00460,Zenith Health Item 460,Health,Urban,450.35,SUP020,WH007,146,234
-PROD00461,Prime Beauty Item 461,Beauty,Metro,498.75,SUP009,WH007,419,475
-PROD00462,Fresh Office Supplies Item 462,Office Supplies,Urban,174.87,SUP008,WH008,427,486
-PROD00463,Zenith Beauty Item 463,Beauty,Prime,150.42,SUP016,WH003,482,575
-PROD00464,Prime Health Item 464,Health,Core,328.95,SUP008,WH006,398,678
-PROD00465,Zenith Grocery Item 465,Grocery,Core,188.98,SUP019,WH005,265,516
-PROD00466,Nova Automotive Item 466,Automotive,Nova,238.75,SUP007,WH002,290,353
-PROD00467,Zenith Office Supplies Item 467,Office Supplies,Prime,73.0,SUP007,WH006,261,324
-PROD00468,Metro Office Supplies Item 468,Office Supplies,Prime,390.58,SUP016,WH006,123,253
-PROD00469,Core Apparel Item 469,Apparel,Apex,228.77,SUP007,WH003,374,438
-PROD00470,Metro Apparel Item 470,Apparel,Nova,69.06,SUP014,WH007,452,697
-PROD00471,Fresh Office Supplies Item 471,Office Supplies,Apex,23.67,SUP007,WH006,294,442
-PROD00472,Core Electronics Item 472,Electronics,Urban,13.87,SUP001,WH004,437,700
-PROD00473,Core Grocery Item 473,Grocery,Nova,194.86,SUP019,WH005,209,292
-PROD00474,Nova Apparel Item 474,Apparel,Zenith,474.49,SUP015,WH006,471,532
-PROD00475,Prime Office Supplies Item 475,Office Supplies,Metro,182.83,SUP007,WH003,225,505
-PROD00476,Apex Office Supplies Item 476,Office Supplies,Prime,109.54,SUP001,WH003,166,273
-PROD00477,Core Home Goods Item 477,Home Goods,Apex,190.72,SUP009,WH001,414,630
-PROD00478,Nova Electronics Item 478,Electronics,Apex,28.88,SUP004,WH007,384,648
-PROD00479,Fresh Automotive Item 479,Automotive,Zenith,239.83,SUP005,WH004,113,303
-PROD00480,Zenith Electronics Item 480,Electronics,Nova,332.93,SUP009,WH003,265,484
-PROD00481,Nova Office Supplies Item 481,Office Supplies,Nova,144.94,SUP004,WH008,311,545
-PROD00482,Urban Grocery Item 482,Grocery,Urban,182.17,SUP014,WH005,448,565
-PROD00483,Apex Apparel Item 483,Apparel,Urban,345.66,SUP016,WH006,330,507
-PROD00484,Apex Grocery Item 484,Grocery,Nova,453.91,SUP019,WH008,56,277
-PROD00485,Nova Apparel Item 485,Apparel,Nova,363.16,SUP004,WH005,449,629
-PROD00486,Metro Grocery Item 486,Grocery,Metro,29.79,SUP006,WH001,201,318
-PROD00487,Core Health Item 487,Health,Core,215.87,SUP004,WH002,460,683
-PROD00488,Apex Electronics Item 488,Electronics,Prime,167.69,SUP015,WH005,486,571
-PROD00489,Core Home Goods Item 489,Home Goods,Prime,61.35,SUP013,WH008,467,604
-PROD00490,Fresh Health Item 490,Health,Metro,400.95,SUP006,WH002,403,670
-PROD00491,Apex Apparel Item 491,Apparel,Nova,210.93,SUP019,WH008,482,572
-PROD00492,Prime Automotive Item 492,Automotive,Core,307.62,SUP005,WH008,362,509
-PROD00493,Nova Automotive Item 493,Automotive,Apex,36.35,SUP011,WH001,260,422
-PROD00494,Core Grocery Item 494,Grocery,Nova,219.26,SUP008,WH008,315,498
-PROD00495,Fresh Beauty Item 495,Beauty,Apex,10.76,SUP006,WH008,126,390
-PROD00496,Prime Automotive Item 496,Automotive,Metro,163.71,SUP011,WH005,88,330
-PROD00497,Urban Electronics Item 497,Electronics,Fresh,204.62,SUP008,WH002,331,545
-PROD00498,Metro Automotive Item 498,Automotive,Metro,48.57,SUP016,WH008,460,656
-PROD00499,Nova Beauty Item 499,Beauty,Apex,55.81,SUP014,WH001,304,544
-PROD00500,Nova Electronics Item 500,Electronics,Zenith,445.6,SUP018,WH004,455,659
+PROD00001,Metro Cereal Box Model 488,Grocery,Metro,823.11,SUP002,WH004,218,405
+PROD00002,Fresh Smartphone Model 374,Electronics,Fresh,1096.2,SUP019,WH006,113,296
+PROD00003,Fresh Tea Pack Model 758,Grocery,Fresh,321.53,SUP008,WH005,314,462
+PROD00004,Fresh File Folder Model 470,Office Supplies,Fresh,613.88,SUP003,WH001,192,337
+PROD00005,Prime Air Purifier Model 911,Home Goods,Prime,717.71,SUP013,WH007,428,719
+PROD00006,Zenith Air Filter Model 666,Automotive,Zenith,819.64,SUP018,WH005,85,218
+PROD00007,Zenith Face Cream Model 545,Beauty,Zenith,8.88,SUP009,WH003,160,467
+PROD00008,Urban Storage Rack Model 256,Home Goods,Urban,649.56,SUP017,WH001,271,428
+PROD00009,Apex Body Lotion Model 214,Beauty,Apex,291.15,SUP008,WH002,265,497
+PROD00010,Nova Dining Chair Model 878,Home Goods,Nova,158.43,SUP016,WH003,352,491
+PROD00011,Fresh Sanitizer Pack Model 316,Health,Fresh,856.97,SUP013,WH006,356,533
+PROD00012,Metro Air Filter Model 223,Automotive,Metro,81.51,SUP001,WH004,206,396
+PROD00013,Nova Organic Rice Model 824,Grocery,Nova,278.59,SUP002,WH006,403,508
+PROD00014,Zenith Desk Lamp Model 785,Home Goods,Zenith,649.38,SUP019,WH008,328,512
+PROD00015,Fresh Tea Pack Model 294,Grocery,Fresh,792.48,SUP012,WH007,128,252
+PROD00016,Apex Ballpoint Pen Model 789,Office Supplies,Apex,77.43,SUP011,WH002,414,539
+PROD00017,Urban Protein Bar Model 649,Grocery,Urban,509.15,SUP009,WH008,309,455
+PROD00018,Metro Olive Oil Model 927,Grocery,Metro,65.45,SUP018,WH001,361,486
+PROD00019,Prime Desk Lamp Model 516,Home Goods,Prime,260.43,SUP013,WH001,328,649
+PROD00020,Apex Dress Model 499,Apparel,Apex,345.87,SUP018,WH008,215,522
+PROD00021,Zenith Sneakers Model 322,Apparel,Zenith,898.83,SUP002,WH001,109,215
+PROD00022,Prime Air Filter Model 158,Automotive,Prime,1022.35,SUP003,WH002,340,456
+PROD00023,Nova Snack Box Model 683,Grocery,Nova,745.16,SUP014,WH006,206,301
+PROD00024,Core First Aid Kit Model 344,Health,Core,161.4,SUP010,WH008,215,492
+PROD00025,Apex Face Cream Model 569,Beauty,Apex,92.55,SUP007,WH005,398,524
+PROD00026,Nova Formal Shirt Model 350,Apparel,Nova,193.51,SUP018,WH005,269,489
+PROD00027,Zenith Bluetooth Speaker Model 779,Electronics,Zenith,321.04,SUP004,WH003,133,276
+PROD00028,Urban Thermometer Model 834,Health,Urban,826.56,SUP009,WH008,255,434
+PROD00029,Nova Vitamin Pack Model 749,Health,Nova,57.68,SUP011,WH003,296,512
+PROD00030,Metro First Aid Kit Model 664,Health,Metro,675.28,SUP004,WH002,441,734
+PROD00031,Core T-Shirt Model 696,Apparel,Core,518.6,SUP002,WH005,362,512
+PROD00032,Core Face Cream Model 315,Beauty,Core,801.99,SUP012,WH007,429,631
+PROD00033,Prime Sneakers Model 919,Apparel,Prime,34.62,SUP011,WH007,170,456
+PROD00034,Prime Coffee Beans Model 906,Grocery,Prime,462.14,SUP002,WH008,439,569
+PROD00035,Metro Protein Bar Model 458,Grocery,Metro,271.39,SUP007,WH007,236,427
+PROD00036,Nova Conditioner Model 891,Beauty,Nova,771.57,SUP013,WH006,222,476
+PROD00037,Zenith Monitor Model 282,Electronics,Zenith,50.72,SUP020,WH007,377,587
+PROD00038,Core Perfume Model 546,Beauty,Core,143.2,SUP019,WH004,390,726
+PROD00039,Fresh Vitamin Pack Model 101,Health,Fresh,825.79,SUP007,WH006,346,696
+PROD00040,Core Notebook Model 738,Office Supplies,Core,865.11,SUP010,WH005,240,378
+PROD00041,Fresh Desk Organizer Model 813,Office Supplies,Fresh,234.25,SUP013,WH003,231,371
+PROD00042,Apex Protein Powder Model 411,Health,Apex,518.72,SUP019,WH006,226,408
+PROD00043,Metro Wiper Blades Model 791,Automotive,Metro,570.46,SUP006,WH002,189,525
+PROD00044,Core Sanitizer Pack Model 195,Health,Core,273.45,SUP007,WH003,200,433
+PROD00045,Urban Laptop Model 586,Electronics,Urban,549.22,SUP019,WH004,392,504
+PROD00046,Fresh Ballpoint Pen Model 349,Office Supplies,Fresh,1071.73,SUP004,WH007,155,232
+PROD00047,Metro Cereal Box Model 151,Grocery,Metro,1101.38,SUP004,WH008,365,567
+PROD00048,Core Backpack Model 873,Apparel,Core,514.96,SUP018,WH008,306,639
+PROD00049,Metro Backpack Model 365,Apparel,Metro,920.15,SUP017,WH008,206,422
+PROD00050,Metro Coffee Beans Model 179,Grocery,Metro,285.22,SUP011,WH006,445,666
+PROD00051,Prime Air Purifier Model 336,Home Goods,Prime,849.17,SUP003,WH007,276,429
+PROD00052,Metro Desk Organizer Model 525,Office Supplies,Metro,1000.3,SUP013,WH001,111,291
+PROD00053,Apex Ballpoint Pen Model 460,Office Supplies,Apex,1024.87,SUP014,WH004,232,506
+PROD00054,Zenith Engine Oil Model 546,Automotive,Zenith,469.68,SUP013,WH003,328,417
+PROD00055,Apex Engine Oil Model 503,Automotive,Apex,105.32,SUP014,WH003,383,471
+PROD00056,Apex Engine Oil Model 366,Automotive,Apex,257.93,SUP011,WH006,274,516
+PROD00057,Fresh Desk Organizer Model 358,Office Supplies,Fresh,28.16,SUP018,WH001,121,436
+PROD00058,Nova Shampoo Model 899,Beauty,Nova,906.31,SUP008,WH004,413,508
+PROD00059,Prime Headphones Model 344,Electronics,Prime,805.0,SUP019,WH004,144,461
+PROD00060,Zenith Tire Inflator Model 885,Automotive,Zenith,729.04,SUP004,WH003,268,428
+PROD00061,Apex Vitamin Pack Model 419,Health,Apex,479.0,SUP007,WH002,374,641
+PROD00062,Zenith Olive Oil Model 970,Grocery,Zenith,956.49,SUP019,WH001,430,566
+PROD00063,Fresh Makeup Kit Model 777,Beauty,Fresh,609.62,SUP011,WH001,269,379
+PROD00064,Nova Ballpoint Pen Model 543,Office Supplies,Nova,850.23,SUP014,WH003,265,575
+PROD00065,Metro Sanitizer Pack Model 576,Health,Metro,390.15,SUP008,WH002,303,515
+PROD00066,Urban Protein Powder Model 868,Health,Urban,406.99,SUP016,WH006,317,586
+PROD00067,Urban Backpack Model 463,Apparel,Urban,339.19,SUP020,WH005,212,461
+PROD00068,Urban Bluetooth Speaker Model 187,Electronics,Urban,588.85,SUP008,WH008,203,486
+PROD00069,Apex Wiper Blades Model 195,Automotive,Apex,488.26,SUP008,WH005,230,418
+PROD00070,Core Body Lotion Model 535,Beauty,Core,425.41,SUP015,WH005,361,605
+PROD00071,Urban Thermometer Model 223,Health,Urban,382.08,SUP018,WH003,449,622
+PROD00072,Metro Protein Bar Model 383,Grocery,Metro,718.16,SUP004,WH004,450,793
+PROD00073,Core First Aid Kit Model 283,Health,Core,851.08,SUP005,WH005,234,316
+PROD00074,Zenith Laptop Model 814,Electronics,Zenith,127.59,SUP001,WH005,144,470
+PROD00075,Metro Wiper Blades Model 448,Automotive,Metro,306.71,SUP016,WH002,174,275
+PROD00076,Metro Bedding Set Model 175,Home Goods,Metro,186.31,SUP019,WH005,375,477
+PROD00077,Nova Desk Lamp Model 671,Home Goods,Nova,931.95,SUP013,WH008,293,483
+PROD00078,Fresh Brake Pads Model 412,Automotive,Fresh,733.51,SUP004,WH004,371,476
+PROD00079,Nova Coffee Beans Model 260,Grocery,Nova,664.63,SUP006,WH001,202,365
+PROD00080,Metro Ballpoint Pen Model 398,Office Supplies,Metro,349.29,SUP010,WH008,96,289
+PROD00081,Zenith Desk Lamp Model 906,Home Goods,Zenith,513.04,SUP018,WH004,400,576
+PROD00082,Prime Hoodie Model 173,Apparel,Prime,952.19,SUP020,WH005,110,269
+PROD00083,Metro Car Battery Model 805,Automotive,Metro,1131.5,SUP017,WH008,235,516
+PROD00084,Apex Car Battery Model 542,Automotive,Apex,35.91,SUP008,WH001,245,448
+PROD00085,Apex Sanitizer Pack Model 881,Health,Apex,625.16,SUP015,WH005,169,484
+PROD00086,Metro Dress Model 193,Apparel,Metro,492.98,SUP011,WH002,320,573
+PROD00087,Fresh Formal Shirt Model 810,Apparel,Fresh,796.79,SUP013,WH001,333,555
+PROD00088,Core Car Battery Model 358,Automotive,Core,1164.37,SUP013,WH001,245,379
+PROD00089,Apex Wiper Blades Model 292,Automotive,Apex,749.05,SUP016,WH008,345,605
+PROD00090,Zenith Keyboard Model 662,Electronics,Zenith,528.55,SUP016,WH002,147,369
+PROD00091,Urban Headphones Model 826,Electronics,Urban,663.25,SUP018,WH007,161,395
+PROD00092,Nova Desk Lamp Model 572,Home Goods,Nova,600.56,SUP010,WH005,140,293
+PROD00093,Metro Ballpoint Pen Model 349,Office Supplies,Metro,463.39,SUP020,WH003,313,462
+PROD00094,Fresh Storage Rack Model 448,Home Goods,Fresh,985.56,SUP010,WH005,339,550
+PROD00095,Metro Engine Oil Model 651,Automotive,Metro,402.27,SUP018,WH007,327,578
+PROD00096,Urban Brake Pads Model 814,Automotive,Urban,284.11,SUP014,WH001,202,473
+PROD00097,Metro Perfume Model 822,Beauty,Metro,1186.15,SUP005,WH008,275,547
+PROD00098,Core Wireless Mouse Model 990,Electronics,Core,124.16,SUP015,WH001,131,431
+PROD00099,Prime Dress Model 176,Apparel,Prime,409.58,SUP013,WH002,320,530
+PROD00100,Fresh Perfume Model 424,Beauty,Fresh,1047.5,SUP002,WH002,400,724
+PROD00101,Urban Coffee Beans Model 864,Grocery,Urban,1174.11,SUP004,WH008,126,423
+PROD00102,Apex Hoodie Model 147,Apparel,Apex,355.57,SUP012,WH007,246,349
+PROD00103,Fresh Sneakers Model 679,Apparel,Fresh,208.13,SUP003,WH007,429,596
+PROD00104,Prime Tea Pack Model 337,Grocery,Prime,554.19,SUP001,WH008,316,521
+PROD00105,Prime Health Monitor Model 175,Health,Prime,1185.24,SUP010,WH007,306,557
+PROD00106,Zenith Protein Powder Model 303,Health,Zenith,132.45,SUP013,WH006,276,598
+PROD00107,Zenith Health Monitor Model 122,Health,Zenith,333.0,SUP019,WH001,417,694
+PROD00108,Urban Brake Pads Model 721,Automotive,Urban,765.76,SUP020,WH005,260,447
+PROD00109,Apex Jeans Model 416,Apparel,Apex,697.59,SUP005,WH002,305,397
+PROD00110,Fresh Thermometer Model 279,Health,Fresh,944.88,SUP012,WH005,182,324
+PROD00111,Metro Hoodie Model 925,Apparel,Metro,966.06,SUP015,WH002,231,479
+PROD00112,Fresh Sneakers Model 966,Apparel,Fresh,112.91,SUP013,WH001,365,627
+PROD00113,Nova Sanitizer Pack Model 565,Health,Nova,703.55,SUP012,WH002,268,477
+PROD00114,Apex Tea Pack Model 734,Grocery,Apex,1098.73,SUP008,WH002,367,609
+PROD00115,Zenith Tire Inflator Model 764,Automotive,Zenith,172.03,SUP002,WH005,289,423
+PROD00116,Nova Car Battery Model 340,Automotive,Nova,469.43,SUP012,WH007,355,499
+PROD00117,Nova Dress Model 953,Apparel,Nova,1127.17,SUP009,WH001,330,613
+PROD00118,Metro Shampoo Model 555,Beauty,Metro,123.73,SUP012,WH006,200,460
+PROD00119,Zenith Printer Model 294,Electronics,Zenith,114.55,SUP007,WH001,142,449
+PROD00120,Urban Smartphone Model 228,Electronics,Urban,86.99,SUP018,WH004,369,549
+PROD00121,Core Protein Bar Model 892,Grocery,Core,336.34,SUP005,WH003,155,231
+PROD00122,Nova First Aid Kit Model 776,Health,Nova,22.76,SUP008,WH006,93,235
+PROD00123,Zenith Wireless Mouse Model 153,Electronics,Zenith,633.67,SUP003,WH008,144,434
+PROD00124,Nova Brake Pads Model 562,Automotive,Nova,1134.77,SUP002,WH005,337,525
+PROD00125,Apex Tire Inflator Model 162,Automotive,Apex,514.4,SUP004,WH008,325,605
+PROD00126,Nova Car Battery Model 429,Automotive,Nova,83.49,SUP009,WH006,391,541
+PROD00127,Zenith File Folder Model 564,Office Supplies,Zenith,123.52,SUP004,WH004,338,633
+PROD00128,Urban Ballpoint Pen Model 523,Office Supplies,Urban,481.48,SUP004,WH006,253,560
+PROD00129,Zenith Desk Organizer Model 483,Office Supplies,Zenith,85.22,SUP003,WH002,158,475
+PROD00130,Core Notebook Model 931,Office Supplies,Core,705.83,SUP018,WH006,146,251
+PROD00131,Core Bedding Set Model 994,Home Goods,Core,1042.37,SUP002,WH005,420,711
+PROD00132,Nova Thermometer Model 691,Health,Nova,189.9,SUP016,WH004,339,522
+PROD00133,Core Cookware Set Model 217,Home Goods,Core,969.63,SUP018,WH001,222,412
+PROD00134,Prime Vitamin Pack Model 379,Health,Prime,1106.24,SUP012,WH001,439,672
+PROD00135,Fresh Jacket Model 171,Apparel,Fresh,114.65,SUP017,WH004,152,242
+PROD00136,Metro Ballpoint Pen Model 449,Office Supplies,Metro,377.41,SUP011,WH002,160,424
+PROD00137,Prime Wireless Mouse Model 872,Electronics,Prime,810.39,SUP009,WH008,396,496
+PROD00138,Metro Ballpoint Pen Model 524,Office Supplies,Metro,907.16,SUP004,WH006,219,404
+PROD00139,Zenith Notebook Model 794,Office Supplies,Zenith,634.69,SUP010,WH001,427,751
+PROD00140,Apex Snack Box Model 107,Grocery,Apex,1134.66,SUP005,WH005,184,413
+PROD00141,Nova Thermometer Model 107,Health,Nova,214.96,SUP013,WH004,334,629
+PROD00142,Fresh Face Cream Model 982,Beauty,Fresh,27.4,SUP003,WH006,101,399
+PROD00143,Fresh File Folder Model 826,Office Supplies,Fresh,350.97,SUP013,WH001,407,695
+PROD00144,Metro Shampoo Model 951,Beauty,Metro,110.32,SUP004,WH004,433,693
+PROD00145,Fresh File Folder Model 636,Office Supplies,Fresh,1045.28,SUP011,WH004,120,397
+PROD00146,Nova Shampoo Model 622,Beauty,Nova,639.07,SUP007,WH006,404,537
+PROD00147,Prime Perfume Model 341,Beauty,Prime,310.88,SUP006,WH003,132,281
+PROD00148,Metro Air Purifier Model 575,Home Goods,Metro,818.95,SUP019,WH006,368,672
+PROD00149,Metro Shampoo Model 169,Beauty,Metro,759.51,SUP009,WH001,320,621
+PROD00150,Nova Makeup Kit Model 417,Beauty,Nova,49.94,SUP012,WH005,316,622
+PROD00151,Fresh Vacuum Cleaner Model 573,Home Goods,Fresh,542.43,SUP019,WH004,377,473
+PROD00152,Metro Makeup Kit Model 613,Beauty,Metro,543.38,SUP011,WH002,157,263
+PROD00153,Urban T-Shirt Model 824,Apparel,Urban,631.26,SUP020,WH003,304,603
+PROD00154,Zenith Conditioner Model 496,Beauty,Zenith,816.28,SUP002,WH006,289,537
+PROD00155,Nova Cookware Set Model 671,Home Goods,Nova,344.56,SUP020,WH003,427,699
+PROD00156,Prime Face Cream Model 458,Beauty,Prime,159.1,SUP003,WH005,238,513
+PROD00157,Core Whiteboard Marker Model 932,Office Supplies,Core,116.68,SUP014,WH006,145,489
+PROD00158,Zenith Smartphone Model 284,Electronics,Zenith,1137.46,SUP016,WH004,189,438
+PROD00159,Prime Cereal Box Model 179,Grocery,Prime,611.69,SUP018,WH001,231,357
+PROD00160,Prime Makeup Kit Model 711,Beauty,Prime,198.89,SUP020,WH003,272,425
+PROD00161,Fresh Car Battery Model 473,Automotive,Fresh,1163.66,SUP020,WH005,426,622
+PROD00162,Urban Engine Oil Model 416,Automotive,Urban,444.57,SUP019,WH008,320,494
+PROD00163,Fresh Brake Pads Model 614,Automotive,Fresh,1159.69,SUP007,WH003,350,639
+PROD00164,Metro Vitamin Pack Model 995,Health,Metro,855.12,SUP017,WH002,270,397
+PROD00165,Prime Vitamin Pack Model 379,Health,Prime,181.08,SUP014,WH002,310,647
+PROD00166,Core Tea Pack Model 127,Grocery,Core,478.76,SUP012,WH004,292,394
+PROD00167,Core Notebook Model 329,Office Supplies,Core,1117.34,SUP011,WH003,94,332
+PROD00168,Zenith T-Shirt Model 949,Apparel,Zenith,911.82,SUP016,WH008,321,467
+PROD00169,Apex Monitor Model 362,Electronics,Apex,660.82,SUP020,WH007,190,341
+PROD00170,Urban Storage Rack Model 408,Home Goods,Urban,289.94,SUP020,WH008,142,241
+PROD00171,Metro Vacuum Cleaner Model 711,Home Goods,Metro,760.19,SUP019,WH004,354,437
+PROD00172,Fresh Hoodie Model 101,Apparel,Fresh,292.47,SUP014,WH003,394,649
+PROD00173,Nova Cookware Set Model 638,Home Goods,Nova,944.76,SUP017,WH001,358,692
+PROD00174,Apex Ballpoint Pen Model 750,Office Supplies,Apex,308.11,SUP001,WH006,278,544
+PROD00175,Urban Cookware Set Model 850,Home Goods,Urban,926.94,SUP011,WH003,416,544
+PROD00176,Core Smartphone Model 933,Electronics,Core,997.31,SUP015,WH008,409,573
+PROD00177,Nova Jacket Model 833,Apparel,Nova,355.66,SUP002,WH004,314,407
+PROD00178,Zenith Smartphone Model 627,Electronics,Zenith,307.71,SUP007,WH005,283,600
+PROD00179,Core Face Cream Model 379,Beauty,Core,527.16,SUP013,WH008,143,406
+PROD00180,Prime Desk Organizer Model 608,Office Supplies,Prime,443.98,SUP017,WH005,434,763
+PROD00181,Nova Bedding Set Model 540,Home Goods,Nova,656.84,SUP011,WH002,388,555
+PROD00182,Zenith Cookware Set Model 413,Home Goods,Zenith,204.14,SUP015,WH006,308,601
+PROD00183,Core Car Battery Model 729,Automotive,Core,769.17,SUP002,WH002,302,517
+PROD00184,Prime Desk Organizer Model 131,Office Supplies,Prime,46.58,SUP003,WH004,153,452
+PROD00185,Fresh Conditioner Model 680,Beauty,Fresh,816.48,SUP012,WH006,96,249
+PROD00186,Prime Car Battery Model 642,Automotive,Prime,380.69,SUP009,WH004,267,545
+PROD00187,Prime Coffee Maker Model 611,Home Goods,Prime,1096.68,SUP004,WH005,345,618
+PROD00188,Metro Health Monitor Model 319,Health,Metro,834.31,SUP016,WH004,393,614
+PROD00189,Nova Air Purifier Model 562,Home Goods,Nova,1196.73,SUP011,WH006,168,470
+PROD00190,Zenith Storage Rack Model 971,Home Goods,Zenith,953.47,SUP017,WH004,160,324
+PROD00191,Prime Desk Lamp Model 342,Home Goods,Prime,436.27,SUP019,WH006,332,420
+PROD00192,Prime Air Filter Model 726,Automotive,Prime,374.6,SUP016,WH007,124,232
+PROD00193,Nova File Folder Model 228,Office Supplies,Nova,542.72,SUP017,WH006,242,354
+PROD00194,Prime Jacket Model 543,Apparel,Prime,998.51,SUP017,WH003,337,440
+PROD00195,Prime First Aid Kit Model 430,Health,Prime,418.5,SUP017,WH005,443,633
+PROD00196,Urban Storage Rack Model 750,Home Goods,Urban,154.58,SUP010,WH002,362,577
+PROD00197,Prime Jacket Model 774,Apparel,Prime,1011.82,SUP019,WH001,399,646
+PROD00198,Apex Monitor Model 756,Electronics,Apex,783.1,SUP019,WH007,375,585
+PROD00199,Zenith Router Model 757,Electronics,Zenith,297.63,SUP013,WH005,234,556
+PROD00200,Apex Car Battery Model 261,Automotive,Apex,583.68,SUP007,WH006,305,592
+PROD00201,Core Formal Shirt Model 851,Apparel,Core,161.27,SUP012,WH002,256,535
+PROD00202,Metro Shampoo Model 225,Beauty,Metro,301.26,SUP004,WH001,216,521
+PROD00203,Fresh Protein Powder Model 354,Health,Fresh,1120.83,SUP011,WH004,161,403
+PROD00204,Metro Backpack Model 610,Apparel,Metro,32.7,SUP013,WH008,237,566
+PROD00205,Core Protein Bar Model 149,Grocery,Core,596.4,SUP016,WH005,105,324
+PROD00206,Fresh Monitor Model 237,Electronics,Fresh,917.81,SUP012,WH001,215,477
+PROD00207,Urban Notebook Model 471,Office Supplies,Urban,92.87,SUP017,WH008,363,585
+PROD00208,Nova Sanitizer Pack Model 231,Health,Nova,450.97,SUP011,WH006,129,405
+PROD00209,Fresh Sneakers Model 612,Apparel,Fresh,51.5,SUP011,WH008,100,198
+PROD00210,Prime Engine Oil Model 435,Automotive,Prime,199.19,SUP020,WH005,393,631
+PROD00211,Metro Makeup Kit Model 825,Beauty,Metro,572.5,SUP001,WH006,368,596
+PROD00212,Nova Perfume Model 526,Beauty,Nova,957.12,SUP001,WH008,378,610
+PROD00213,Urban Health Monitor Model 838,Health,Urban,208.76,SUP020,WH007,106,426
+PROD00214,Apex Sneakers Model 686,Apparel,Apex,232.99,SUP015,WH006,438,569
+PROD00215,Fresh Printer Paper Model 807,Office Supplies,Fresh,604.67,SUP020,WH008,184,469
+PROD00216,Urban Wireless Mouse Model 674,Electronics,Urban,632.95,SUP011,WH003,246,565
+PROD00217,Core Air Filter Model 659,Automotive,Core,734.04,SUP007,WH004,261,471
+PROD00218,Zenith Sanitizer Pack Model 330,Health,Zenith,847.36,SUP016,WH006,232,454
+PROD00219,Zenith Brake Pads Model 394,Automotive,Zenith,1075.43,SUP013,WH006,142,411
+PROD00220,Apex Hoodie Model 394,Apparel,Apex,418.9,SUP015,WH005,445,560
+PROD00221,Urban Engine Oil Model 947,Automotive,Urban,1119.96,SUP009,WH003,355,568
+PROD00222,Urban Desk Lamp Model 151,Home Goods,Urban,274.68,SUP008,WH001,422,768
+PROD00223,Core Bedding Set Model 834,Home Goods,Core,819.02,SUP005,WH001,321,447
+PROD00224,Metro Dress Model 588,Apparel,Metro,908.31,SUP010,WH006,413,590
+PROD00225,Apex Health Monitor Model 887,Health,Apex,644.51,SUP002,WH003,125,318
+PROD00226,Apex Printer Paper Model 956,Office Supplies,Apex,227.64,SUP010,WH001,283,611
+PROD00227,Nova Tablet Model 443,Electronics,Nova,1186.97,SUP018,WH008,225,532
+PROD00228,Zenith Backpack Model 297,Apparel,Zenith,199.18,SUP015,WH005,137,381
+PROD00229,Core T-Shirt Model 909,Apparel,Core,214.72,SUP013,WH007,231,404
+PROD00230,Fresh Face Cream Model 785,Beauty,Fresh,1178.11,SUP016,WH006,128,297
+PROD00231,Zenith Organic Rice Model 492,Grocery,Zenith,905.74,SUP011,WH005,200,503
+PROD00232,Core Tablet Model 809,Electronics,Core,803.0,SUP015,WH005,200,306
+PROD00233,Zenith Dress Model 806,Apparel,Zenith,444.21,SUP008,WH004,140,366
+PROD00234,Prime Backpack Model 565,Apparel,Prime,501.94,SUP018,WH008,390,656
+PROD00235,Nova Protein Bar Model 638,Grocery,Nova,846.0,SUP003,WH002,308,653
+PROD00236,Urban Bluetooth Speaker Model 686,Electronics,Urban,201.62,SUP017,WH008,354,505
+PROD00237,Metro Desk Lamp Model 193,Home Goods,Metro,971.39,SUP015,WH003,341,644
+PROD00238,Apex Ballpoint Pen Model 672,Office Supplies,Apex,869.32,SUP013,WH005,316,548
+PROD00239,Nova Keyboard Model 146,Electronics,Nova,841.96,SUP018,WH001,296,547
+PROD00240,Apex Dining Chair Model 393,Home Goods,Apex,923.92,SUP014,WH006,289,456
+PROD00241,Fresh Ballpoint Pen Model 484,Office Supplies,Fresh,785.97,SUP012,WH002,121,264
+PROD00242,Prime Dress Model 845,Apparel,Prime,908.63,SUP010,WH008,194,270
+PROD00243,Fresh File Folder Model 943,Office Supplies,Fresh,555.45,SUP005,WH005,197,398
+PROD00244,Apex Olive Oil Model 928,Grocery,Apex,739.83,SUP001,WH004,418,707
+PROD00245,Nova Olive Oil Model 708,Grocery,Nova,719.35,SUP002,WH004,97,400
+PROD00246,Metro Printer Model 339,Electronics,Metro,906.49,SUP002,WH003,356,542
+PROD00247,Core First Aid Kit Model 691,Health,Core,288.1,SUP005,WH004,386,625
+PROD00248,Zenith Desk Organizer Model 162,Office Supplies,Zenith,753.06,SUP014,WH008,365,529
+PROD00249,Fresh Smartphone Model 904,Electronics,Fresh,837.09,SUP014,WH003,348,586
+PROD00250,Prime Protein Powder Model 872,Health,Prime,292.96,SUP008,WH005,355,672
+PROD00251,Apex Backpack Model 675,Apparel,Apex,670.96,SUP005,WH007,291,579
+PROD00252,Urban Coffee Beans Model 438,Grocery,Urban,1107.06,SUP012,WH002,411,526
+PROD00253,Zenith Organic Rice Model 486,Grocery,Zenith,1048.98,SUP007,WH004,424,519
+PROD00254,Core Engine Oil Model 410,Automotive,Core,1124.91,SUP004,WH008,87,270
+PROD00255,Fresh Protein Bar Model 345,Grocery,Fresh,931.74,SUP013,WH008,362,601
+PROD00256,Zenith Conditioner Model 468,Beauty,Zenith,561.87,SUP016,WH006,342,671
+PROD00257,Core Pasta Pack Model 523,Grocery,Core,890.8,SUP001,WH005,103,291
+PROD00258,Prime Desk Organizer Model 300,Office Supplies,Prime,458.91,SUP008,WH008,248,440
+PROD00259,Metro Conditioner Model 840,Beauty,Metro,555.69,SUP012,WH003,408,734
+PROD00260,Prime Backpack Model 655,Apparel,Prime,631.11,SUP003,WH001,408,513
+PROD00261,Prime Printer Model 962,Electronics,Prime,86.22,SUP005,WH001,402,595
+PROD00262,Core Tea Pack Model 161,Grocery,Core,792.84,SUP001,WH001,396,718
+PROD00263,Apex Notebook Model 642,Office Supplies,Apex,645.21,SUP010,WH001,449,664
+PROD00264,Nova Printer Paper Model 198,Office Supplies,Nova,292.96,SUP020,WH005,348,499
+PROD00265,Fresh Conditioner Model 180,Beauty,Fresh,553.5,SUP008,WH004,271,553
+PROD00266,Nova Health Monitor Model 769,Health,Nova,116.73,SUP013,WH007,412,503
+PROD00267,Apex Car Battery Model 819,Automotive,Apex,602.33,SUP014,WH006,167,284
+PROD00268,Urban Coffee Maker Model 316,Home Goods,Urban,328.96,SUP003,WH005,434,752
+PROD00269,Core Wireless Mouse Model 116,Electronics,Core,903.94,SUP013,WH002,186,334
+PROD00270,Urban First Aid Kit Model 680,Health,Urban,463.7,SUP005,WH002,279,523
+PROD00271,Nova Face Cream Model 547,Beauty,Nova,412.01,SUP020,WH007,198,311
+PROD00272,Zenith Face Cream Model 902,Beauty,Zenith,277.63,SUP018,WH007,310,636
+PROD00273,Fresh Printer Paper Model 187,Office Supplies,Fresh,958.68,SUP003,WH002,396,622
+PROD00274,Fresh First Aid Kit Model 828,Health,Fresh,888.89,SUP011,WH006,404,557
+PROD00275,Apex Vacuum Cleaner Model 415,Home Goods,Apex,914.81,SUP004,WH003,307,566
+PROD00276,Fresh Air Purifier Model 559,Home Goods,Fresh,492.61,SUP001,WH002,365,702
+PROD00277,Nova Makeup Kit Model 711,Beauty,Nova,1037.14,SUP001,WH005,386,627
+PROD00278,Nova Ballpoint Pen Model 842,Office Supplies,Nova,688.49,SUP006,WH007,366,565
+PROD00279,Zenith Jacket Model 408,Apparel,Zenith,179.39,SUP006,WH007,217,544
+PROD00280,Zenith Protein Powder Model 595,Health,Zenith,305.78,SUP008,WH008,119,378
+PROD00281,Nova Tea Pack Model 238,Grocery,Nova,1138.84,SUP011,WH007,235,313
+PROD00282,Core Body Lotion Model 540,Beauty,Core,364.02,SUP020,WH004,413,557
+PROD00283,Prime Brake Pads Model 507,Automotive,Prime,883.17,SUP016,WH004,243,467
+PROD00284,Zenith Body Lotion Model 936,Beauty,Zenith,141.1,SUP019,WH004,281,542
+PROD00285,Metro T-Shirt Model 825,Apparel,Metro,958.23,SUP003,WH007,187,486
+PROD00286,Zenith Engine Oil Model 347,Automotive,Zenith,859.71,SUP013,WH002,209,362
+PROD00287,Metro Air Filter Model 696,Automotive,Metro,610.4,SUP014,WH001,285,633
+PROD00288,Nova Perfume Model 211,Beauty,Nova,203.77,SUP020,WH001,207,463
+PROD00289,Fresh Desk Organizer Model 208,Office Supplies,Fresh,314.19,SUP017,WH004,85,210
+PROD00290,Fresh Brake Pads Model 574,Automotive,Fresh,185.14,SUP001,WH008,427,758
+PROD00291,Fresh Storage Rack Model 187,Home Goods,Fresh,421.25,SUP011,WH008,139,286
+PROD00292,Core Tea Pack Model 587,Grocery,Core,867.78,SUP015,WH006,129,428
+PROD00293,Apex Storage Rack Model 929,Home Goods,Apex,31.99,SUP011,WH002,443,576
+PROD00294,Prime Sneakers Model 665,Apparel,Prime,674.02,SUP015,WH004,161,405
+PROD00295,Prime Whiteboard Marker Model 290,Office Supplies,Prime,477.72,SUP020,WH004,407,703
+PROD00296,Fresh Air Filter Model 498,Automotive,Fresh,250.91,SUP003,WH002,82,266
+PROD00297,Core Formal Shirt Model 301,Apparel,Core,318.51,SUP016,WH006,314,447
+PROD00298,Fresh File Folder Model 701,Office Supplies,Fresh,425.62,SUP015,WH003,138,391
+PROD00299,Nova Sanitizer Pack Model 788,Health,Nova,145.84,SUP010,WH002,148,383
+PROD00300,Prime Formal Shirt Model 623,Apparel,Prime,717.73,SUP019,WH007,278,567
+PROD00301,Metro Printer Paper Model 750,Office Supplies,Metro,668.12,SUP016,WH005,355,518
+PROD00302,Core Jacket Model 962,Apparel,Core,1039.3,SUP001,WH008,310,412
+PROD00303,Fresh Sneakers Model 675,Apparel,Fresh,493.92,SUP016,WH007,338,666
+PROD00304,Prime Wiper Blades Model 184,Automotive,Prime,956.08,SUP008,WH005,369,459
+PROD00305,Urban Tablet Model 650,Electronics,Urban,937.98,SUP019,WH008,227,388
+PROD00306,Zenith Vacuum Cleaner Model 893,Home Goods,Zenith,652.74,SUP002,WH008,358,620
+PROD00307,Nova Snack Box Model 853,Grocery,Nova,360.76,SUP002,WH008,414,615
+PROD00308,Nova Thermometer Model 549,Health,Nova,255.8,SUP019,WH006,140,336
+PROD00309,Prime Printer Paper Model 903,Office Supplies,Prime,967.5,SUP019,WH006,185,365
+PROD00310,Prime Sanitizer Pack Model 431,Health,Prime,350.75,SUP009,WH002,440,664
+PROD00311,Apex Dress Model 383,Apparel,Apex,843.2,SUP005,WH004,415,554
+PROD00312,Urban Formal Shirt Model 879,Apparel,Urban,589.9,SUP019,WH005,426,702
+PROD00313,Metro Ballpoint Pen Model 177,Office Supplies,Metro,486.41,SUP009,WH006,404,526
+PROD00314,Core Wiper Blades Model 695,Automotive,Core,878.46,SUP015,WH006,81,203
+PROD00315,Urban Bedding Set Model 539,Home Goods,Urban,325.9,SUP010,WH006,188,516
+PROD00316,Core Backpack Model 798,Apparel,Core,123.99,SUP015,WH001,104,202
+PROD00317,Metro Air Purifier Model 567,Home Goods,Metro,246.77,SUP005,WH005,80,374
+PROD00318,Nova Hoodie Model 770,Apparel,Nova,103.49,SUP006,WH001,264,467
+PROD00319,Zenith Whiteboard Marker Model 843,Office Supplies,Zenith,517.93,SUP003,WH002,438,632
+PROD00320,Metro Keyboard Model 179,Electronics,Metro,625.74,SUP015,WH001,147,337
+PROD00321,Nova Smartphone Model 980,Electronics,Nova,575.85,SUP008,WH007,296,438
+PROD00322,Nova Vacuum Cleaner Model 420,Home Goods,Nova,168.87,SUP005,WH003,268,496
+PROD00323,Prime Coffee Maker Model 550,Home Goods,Prime,755.56,SUP005,WH007,259,443
+PROD00324,Nova Engine Oil Model 202,Automotive,Nova,709.54,SUP013,WH006,151,289
+PROD00325,Prime Desk Organizer Model 353,Office Supplies,Prime,301.56,SUP020,WH005,221,339
+PROD00326,Urban Tablet Model 630,Electronics,Urban,230.43,SUP013,WH005,390,725
+PROD00327,Metro Keyboard Model 495,Electronics,Metro,602.0,SUP020,WH002,137,335
+PROD00328,Core Smartphone Model 235,Electronics,Core,441.67,SUP006,WH008,278,568
+PROD00329,Nova Coffee Maker Model 114,Home Goods,Nova,52.59,SUP002,WH007,214,399
+PROD00330,Fresh Health Monitor Model 533,Health,Fresh,103.5,SUP018,WH003,439,719
+PROD00331,Zenith Vitamin Pack Model 180,Health,Zenith,1169.3,SUP005,WH006,341,520
+PROD00332,Nova File Folder Model 417,Office Supplies,Nova,877.3,SUP008,WH001,437,735
+PROD00333,Fresh Olive Oil Model 218,Grocery,Fresh,374.6,SUP006,WH002,312,415
+PROD00334,Apex Wireless Mouse Model 267,Electronics,Apex,629.99,SUP009,WH003,334,586
+PROD00335,Zenith Shampoo Model 850,Beauty,Zenith,405.34,SUP014,WH005,140,230
+PROD00336,Nova Storage Rack Model 608,Home Goods,Nova,435.35,SUP016,WH003,313,649
+PROD00337,Zenith Shampoo Model 891,Beauty,Zenith,277.94,SUP017,WH001,132,266
+PROD00338,Urban Laptop Model 147,Electronics,Urban,462.66,SUP005,WH003,321,582
+PROD00339,Fresh Bluetooth Speaker Model 329,Electronics,Fresh,502.43,SUP011,WH005,244,446
+PROD00340,Nova Cookware Set Model 614,Home Goods,Nova,219.32,SUP017,WH001,424,525
+PROD00341,Metro Notebook Model 986,Office Supplies,Metro,396.12,SUP018,WH008,224,458
+PROD00342,Urban Smartphone Model 398,Electronics,Urban,888.79,SUP008,WH008,368,598
+PROD00343,Metro Makeup Kit Model 891,Beauty,Metro,184.93,SUP014,WH001,180,380
+PROD00344,Apex Pasta Pack Model 443,Grocery,Apex,1019.56,SUP010,WH002,80,347
+PROD00345,Fresh Protein Bar Model 603,Grocery,Fresh,855.42,SUP003,WH001,110,257
+PROD00346,Core Snack Box Model 569,Grocery,Core,608.99,SUP013,WH002,123,246
+PROD00347,Prime Printer Model 342,Electronics,Prime,1021.84,SUP013,WH006,229,437
+PROD00348,Zenith Body Lotion Model 339,Beauty,Zenith,167.65,SUP019,WH002,118,296
+PROD00349,Prime Jeans Model 560,Apparel,Prime,490.78,SUP018,WH006,318,553
+PROD00350,Zenith Tea Pack Model 574,Grocery,Zenith,113.05,SUP010,WH001,215,351
+PROD00351,Prime Pasta Pack Model 193,Grocery,Prime,1162.24,SUP013,WH001,444,646
+PROD00352,Prime Thermometer Model 131,Health,Prime,669.36,SUP018,WH004,287,593
+PROD00353,Nova Dining Chair Model 923,Home Goods,Nova,19.29,SUP008,WH003,151,288
+PROD00354,Core Snack Box Model 802,Grocery,Core,700.88,SUP009,WH002,402,520
+PROD00355,Urban Monitor Model 761,Electronics,Urban,114.91,SUP011,WH002,307,447
+PROD00356,Apex Router Model 272,Electronics,Apex,986.91,SUP013,WH008,373,669
+PROD00357,Fresh Printer Model 276,Electronics,Fresh,1090.42,SUP009,WH005,261,445
+PROD00358,Apex Engine Oil Model 728,Automotive,Apex,778.5,SUP016,WH007,397,597
+PROD00359,Nova Car Battery Model 386,Automotive,Nova,505.99,SUP017,WH004,276,421
+PROD00360,Core Printer Model 591,Electronics,Core,416.12,SUP019,WH006,358,681
+PROD00361,Prime Desk Organizer Model 126,Office Supplies,Prime,40.02,SUP009,WH001,243,430
+PROD00362,Core Air Filter Model 885,Automotive,Core,1168.91,SUP004,WH004,379,573
+PROD00363,Apex Coffee Beans Model 882,Grocery,Apex,428.99,SUP006,WH003,192,465
+PROD00364,Core Pasta Pack Model 705,Grocery,Core,1137.33,SUP019,WH003,94,349
+PROD00365,Zenith Tea Pack Model 279,Grocery,Zenith,112.86,SUP008,WH004,331,425
+PROD00366,Metro Bluetooth Speaker Model 100,Electronics,Metro,968.7,SUP011,WH003,249,427
+PROD00367,Apex Face Cream Model 251,Beauty,Apex,930.37,SUP017,WH006,380,527
+PROD00368,Fresh Cookware Set Model 700,Home Goods,Fresh,365.61,SUP005,WH003,131,378
+PROD00369,Metro Whiteboard Marker Model 764,Office Supplies,Metro,850.08,SUP018,WH006,242,406
+PROD00370,Fresh Cereal Box Model 414,Grocery,Fresh,157.18,SUP001,WH007,432,657
+PROD00371,Core Wireless Mouse Model 928,Electronics,Core,769.38,SUP004,WH008,393,581
+PROD00372,Nova Formal Shirt Model 343,Apparel,Nova,205.63,SUP003,WH006,257,495
+PROD00373,Zenith Car Battery Model 314,Automotive,Zenith,423.82,SUP004,WH001,207,316
+PROD00374,Metro Printer Model 850,Electronics,Metro,1062.04,SUP016,WH007,294,454
+PROD00375,Fresh Makeup Kit Model 203,Beauty,Fresh,199.37,SUP003,WH001,325,515
+PROD00376,Core Vitamin Pack Model 367,Health,Core,413.46,SUP013,WH003,133,245
+PROD00377,Core Vacuum Cleaner Model 708,Home Goods,Core,846.88,SUP014,WH003,394,716
+PROD00378,Apex Printer Paper Model 203,Office Supplies,Apex,1169.41,SUP014,WH005,249,429
+PROD00379,Urban Thermometer Model 198,Health,Urban,688.26,SUP016,WH003,105,381
+PROD00380,Apex Smartphone Model 537,Electronics,Apex,989.56,SUP020,WH008,124,349
+PROD00381,Apex Olive Oil Model 311,Grocery,Apex,1172.58,SUP016,WH002,167,391
+PROD00382,Metro Protein Powder Model 600,Health,Metro,113.91,SUP018,WH007,418,628
+PROD00383,Fresh Formal Shirt Model 478,Apparel,Fresh,58.32,SUP015,WH008,175,478
+PROD00384,Zenith First Aid Kit Model 677,Health,Zenith,903.92,SUP004,WH002,111,263
+PROD00385,Fresh Makeup Kit Model 874,Beauty,Fresh,666.55,SUP013,WH007,381,572
+PROD00386,Urban Air Filter Model 587,Automotive,Urban,476.79,SUP002,WH003,233,348
+PROD00387,Prime Dining Chair Model 271,Home Goods,Prime,155.79,SUP014,WH002,188,361
+PROD00388,Prime Printer Paper Model 954,Office Supplies,Prime,387.1,SUP003,WH002,384,591
+PROD00389,Fresh File Folder Model 665,Office Supplies,Fresh,626.03,SUP001,WH007,246,462
+PROD00390,Prime Bedding Set Model 251,Home Goods,Prime,1110.29,SUP019,WH002,370,496
+PROD00391,Core Sanitizer Pack Model 998,Health,Core,462.74,SUP016,WH008,290,500
+PROD00392,Zenith Wireless Mouse Model 512,Electronics,Zenith,51.35,SUP011,WH004,153,433
+PROD00393,Zenith Router Model 481,Electronics,Zenith,981.78,SUP010,WH005,90,337
+PROD00394,Nova Protein Powder Model 989,Health,Nova,364.07,SUP015,WH006,196,339
+PROD00395,Fresh Health Monitor Model 719,Health,Fresh,229.58,SUP007,WH007,410,530
+PROD00396,Core Air Filter Model 940,Automotive,Core,950.83,SUP003,WH005,108,446
+PROD00397,Apex Printer Paper Model 277,Office Supplies,Apex,1005.19,SUP008,WH001,178,355
+PROD00398,Core Car Battery Model 821,Automotive,Core,445.18,SUP015,WH007,181,396
+PROD00399,Urban Coffee Maker Model 481,Home Goods,Urban,217.21,SUP016,WH006,330,633
+PROD00400,Zenith Shampoo Model 866,Beauty,Zenith,345.66,SUP013,WH001,432,553
+PROD00401,Urban Sneakers Model 762,Apparel,Urban,326.55,SUP014,WH001,195,375
+PROD00402,Prime Router Model 762,Electronics,Prime,272.41,SUP020,WH005,168,247
+PROD00403,Fresh Protein Powder Model 972,Health,Fresh,306.14,SUP015,WH005,258,568
+PROD00404,Nova File Folder Model 107,Office Supplies,Nova,675.94,SUP020,WH005,341,607
+PROD00405,Nova Health Monitor Model 593,Health,Nova,1186.09,SUP011,WH005,112,359
+PROD00406,Zenith Health Monitor Model 292,Health,Zenith,919.74,SUP002,WH007,156,495
+PROD00407,Prime Perfume Model 838,Beauty,Prime,1196.98,SUP009,WH007,93,422
+PROD00408,Apex Ballpoint Pen Model 697,Office Supplies,Apex,415.08,SUP008,WH008,442,614
+PROD00409,Zenith Makeup Kit Model 965,Beauty,Zenith,356.07,SUP016,WH003,167,334
+PROD00410,Prime Health Monitor Model 796,Health,Prime,270.59,SUP008,WH005,251,371
+PROD00411,Core Desk Organizer Model 366,Office Supplies,Core,559.19,SUP004,WH008,379,604
+PROD00412,Nova Headphones Model 583,Electronics,Nova,148.18,SUP013,WH005,179,510
+PROD00413,Prime Notebook Model 240,Office Supplies,Prime,493.98,SUP019,WH008,182,432
+PROD00414,Prime Formal Shirt Model 897,Apparel,Prime,402.49,SUP006,WH006,121,445
+PROD00415,Metro Laptop Model 380,Electronics,Metro,693.65,SUP006,WH008,187,348
+PROD00416,Fresh Air Purifier Model 748,Home Goods,Fresh,517.69,SUP016,WH007,299,580
+PROD00417,Urban Laptop Model 848,Electronics,Urban,1070.95,SUP017,WH004,271,353
+PROD00418,Urban Laptop Model 331,Electronics,Urban,377.95,SUP004,WH007,435,686
+PROD00419,Nova First Aid Kit Model 943,Health,Nova,1138.41,SUP015,WH006,103,330
+PROD00420,Prime Whiteboard Marker Model 450,Office Supplies,Prime,901.39,SUP006,WH007,330,588
+PROD00421,Urban Keyboard Model 844,Electronics,Urban,882.22,SUP019,WH003,147,330
+PROD00422,Apex Cookware Set Model 484,Home Goods,Apex,926.64,SUP020,WH001,407,612
+PROD00423,Apex Monitor Model 149,Electronics,Apex,503.05,SUP013,WH002,433,567
+PROD00424,Prime Protein Powder Model 310,Health,Prime,364.83,SUP004,WH005,435,514
+PROD00425,Nova Dress Model 623,Apparel,Nova,342.83,SUP004,WH008,448,583
+PROD00426,Zenith Protein Bar Model 951,Grocery,Zenith,432.72,SUP014,WH005,347,525
+PROD00427,Metro T-Shirt Model 312,Apparel,Metro,400.07,SUP001,WH001,432,753
+PROD00428,Metro Vacuum Cleaner Model 252,Home Goods,Metro,94.68,SUP004,WH005,126,462
+PROD00429,Zenith Tea Pack Model 370,Grocery,Zenith,124.27,SUP006,WH001,317,417
+PROD00430,Core Thermometer Model 536,Health,Core,1022.24,SUP002,WH001,139,262
+PROD00431,Core Jacket Model 466,Apparel,Core,1054.78,SUP003,WH006,304,516
+PROD00432,Nova Shampoo Model 510,Beauty,Nova,329.84,SUP013,WH008,284,592
+PROD00433,Prime Whiteboard Marker Model 215,Office Supplies,Prime,1177.98,SUP006,WH002,147,252
+PROD00434,Metro File Folder Model 921,Office Supplies,Metro,221.61,SUP013,WH006,371,670
+PROD00435,Metro Wireless Mouse Model 599,Electronics,Metro,531.62,SUP003,WH005,137,422
+PROD00436,Urban Face Cream Model 785,Beauty,Urban,630.11,SUP020,WH002,253,593
+PROD00437,Urban Whiteboard Marker Model 593,Office Supplies,Urban,182.64,SUP018,WH001,257,529
+PROD00438,Metro Wireless Mouse Model 972,Electronics,Metro,94.46,SUP016,WH006,333,492
+PROD00439,Zenith Pasta Pack Model 151,Grocery,Zenith,662.84,SUP013,WH007,339,528
+PROD00440,Metro Olive Oil Model 554,Grocery,Metro,110.18,SUP016,WH008,373,677
+PROD00441,Metro Face Cream Model 863,Beauty,Metro,127.66,SUP014,WH001,414,498
+PROD00442,Zenith Monitor Model 620,Electronics,Zenith,787.24,SUP015,WH006,367,547
+PROD00443,Urban Face Cream Model 964,Beauty,Urban,674.38,SUP020,WH008,312,556
+PROD00444,Metro Perfume Model 216,Beauty,Metro,7.63,SUP012,WH005,129,317
+PROD00445,Nova Perfume Model 146,Beauty,Nova,172.84,SUP014,WH002,164,491
+PROD00446,Urban Sanitizer Pack Model 292,Health,Urban,262.63,SUP007,WH006,141,417
+PROD00447,Apex Bedding Set Model 748,Home Goods,Apex,927.71,SUP015,WH008,424,562
+PROD00448,Apex Backpack Model 643,Apparel,Apex,1007.39,SUP016,WH003,104,400
+PROD00449,Nova Jacket Model 496,Apparel,Nova,607.41,SUP013,WH007,416,655
+PROD00450,Fresh Coffee Beans Model 451,Grocery,Fresh,966.73,SUP005,WH007,230,536
+PROD00451,Core Health Monitor Model 828,Health,Core,245.06,SUP020,WH005,363,549
+PROD00452,Prime Perfume Model 827,Beauty,Prime,607.15,SUP011,WH002,412,578
+PROD00453,Metro Makeup Kit Model 696,Beauty,Metro,810.72,SUP018,WH005,372,660
+PROD00454,Nova Notebook Model 125,Office Supplies,Nova,68.41,SUP002,WH004,275,424
+PROD00455,Zenith First Aid Kit Model 799,Health,Zenith,1008.06,SUP010,WH004,208,357
+PROD00456,Metro Smartphone Model 204,Electronics,Metro,892.18,SUP018,WH007,395,584
+PROD00457,Apex Coffee Beans Model 490,Grocery,Apex,1148.26,SUP011,WH001,278,566
+PROD00458,Urban Tablet Model 735,Electronics,Urban,1094.23,SUP012,WH004,306,496
+PROD00459,Metro Coffee Beans Model 281,Grocery,Metro,228.44,SUP006,WH002,429,542
+PROD00460,Fresh Notebook Model 385,Office Supplies,Fresh,160.43,SUP019,WH005,364,574
+PROD00461,Metro Smartphone Model 826,Electronics,Metro,188.68,SUP011,WH001,159,254
+PROD00462,Core Protein Powder Model 174,Health,Core,632.85,SUP006,WH002,442,679
+PROD00463,Fresh Dress Model 194,Apparel,Fresh,1060.66,SUP011,WH006,258,446
+PROD00464,Urban Conditioner Model 870,Beauty,Urban,572.45,SUP018,WH001,396,742
+PROD00465,Metro Cookware Set Model 346,Home Goods,Metro,1150.88,SUP011,WH007,408,607
+PROD00466,Zenith Bedding Set Model 653,Home Goods,Zenith,34.52,SUP017,WH006,450,669
+PROD00467,Apex Wiper Blades Model 403,Automotive,Apex,387.77,SUP003,WH002,413,586
+PROD00468,Nova T-Shirt Model 315,Apparel,Nova,1038.62,SUP014,WH002,423,607
+PROD00469,Nova Snack Box Model 864,Grocery,Nova,33.38,SUP011,WH001,431,584
+PROD00470,Apex Vacuum Cleaner Model 282,Home Goods,Apex,692.08,SUP008,WH005,208,319
+PROD00471,Metro Ballpoint Pen Model 745,Office Supplies,Metro,383.1,SUP013,WH002,287,583
+PROD00472,Nova Headphones Model 874,Electronics,Nova,842.55,SUP003,WH006,379,477
+PROD00473,Zenith Storage Rack Model 721,Home Goods,Zenith,919.5,SUP015,WH007,124,343
+PROD00474,Apex Whiteboard Marker Model 585,Office Supplies,Apex,267.74,SUP013,WH005,160,508
+PROD00475,Core Hoodie Model 111,Apparel,Core,152.27,SUP001,WH007,363,510
+PROD00476,Urban Storage Rack Model 866,Home Goods,Urban,498.12,SUP017,WH003,256,439
+PROD00477,Urban Jacket Model 731,Apparel,Urban,141.97,SUP019,WH001,209,383
+PROD00478,Nova Tire Inflator Model 397,Automotive,Nova,304.57,SUP007,WH008,423,532
+PROD00479,Prime Conditioner Model 787,Beauty,Prime,124.55,SUP020,WH002,415,610
+PROD00480,Metro Pasta Pack Model 561,Grocery,Metro,833.68,SUP005,WH006,248,479
+PROD00481,Prime Body Lotion Model 104,Beauty,Prime,943.86,SUP014,WH005,240,441
+PROD00482,Core Shampoo Model 998,Beauty,Core,537.2,SUP010,WH008,325,636
+PROD00483,Nova Air Purifier Model 961,Home Goods,Nova,1070.1,SUP007,WH005,223,369
+PROD00484,Apex Vacuum Cleaner Model 969,Home Goods,Apex,976.11,SUP019,WH007,339,429
+PROD00485,Zenith Organic Rice Model 656,Grocery,Zenith,786.42,SUP005,WH006,356,672
+PROD00486,Zenith Printer Paper Model 237,Office Supplies,Zenith,614.94,SUP013,WH006,317,648
+PROD00487,Prime Keyboard Model 875,Electronics,Prime,538.23,SUP006,WH003,343,489
+PROD00488,Apex Brake Pads Model 324,Automotive,Apex,80.12,SUP012,WH004,329,522
+PROD00489,Core Keyboard Model 497,Electronics,Core,1058.45,SUP002,WH006,320,627
+PROD00490,Zenith Storage Rack Model 692,Home Goods,Zenith,455.11,SUP013,WH006,358,522
+PROD00491,Fresh Storage Rack Model 328,Home Goods,Fresh,426.71,SUP012,WH008,344,626
+PROD00492,Apex Air Filter Model 613,Automotive,Apex,202.9,SUP003,WH005,151,451
+PROD00493,Prime Cereal Box Model 261,Grocery,Prime,795.03,SUP014,WH006,265,400
+PROD00494,Metro Dining Chair Model 590,Home Goods,Metro,778.47,SUP014,WH001,187,344
+PROD00495,Prime Organic Rice Model 687,Grocery,Prime,166.0,SUP017,WH001,383,540
+PROD00496,Prime T-Shirt Model 364,Apparel,Prime,1150.09,SUP020,WH001,172,511
+PROD00497,Urban Vitamin Pack Model 559,Health,Urban,1041.43,SUP006,WH004,390,706
+PROD00498,Prime File Folder Model 913,Office Supplies,Prime,749.74,SUP017,WH005,378,546
+PROD00499,Metro Formal Shirt Model 710,Apparel,Metro,279.63,SUP013,WH003,382,492
+PROD00500,Urban Coffee Maker Model 635,Home Goods,Urban,992.68,SUP020,WH002,338,627

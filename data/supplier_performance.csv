@@ -1,0 +1,21 @@
+performance_id,supplier_id,supplier_name,risk_profile,total_orders,delayed_orders,delay_rate,otif_rate,average_lead_time,quality_rating,defect_rate,cost_score
+PERF0001,SUP001,Dell Technologies,Reliable,89,5,5.62,94.38,6,4.57,1.37,92.03
+PERF0002,SUP002,HP Inc.,Reliable,153,7,4.58,95.42,8,4.46,1.04,87.71
+PERF0003,SUP003,Lenovo Group,Average,136,14,10.29,89.71,18,4.1,5.45,74.07
+PERF0004,SUP004,Samsung Electronics,Reliable,166,10,6.02,93.98,5,4.54,1.91,90.18
+PERF0005,SUP005,Logitech,Average,128,18,14.06,85.94,19,3.94,4.66,66.13
+PERF0006,SUP006,Sony Corporation,Delayed,112,26,23.21,76.79,35,3.6,5.99,51.54
+PERF0007,SUP007,Canon Inc.,Average,91,16,17.58,82.42,14,3.8,3.82,70.38
+PERF0008,SUP008,LG Electronics,Reliable,152,10,6.58,93.42,7,4.6,1.31,94.29
+PERF0009,SUP009,Apex Packaging,Delayed,99,29,29.29,70.71,22,3.89,7.45,49.91
+PERF0010,SUP010,Global Textile Supply,Delayed,118,26,22.03,77.97,21,3.29,7.45,61.06
+PERF0011,SUP011,FreshSource Foods,Average,190,23,12.11,87.89,15,4.36,2.54,65.62
+PERF0012,SUP012,Prime Auto Parts,Reliable,116,4,3.45,96.55,12,4.98,1.51,89.88
+PERF0013,SUP013,MedLife Supplies,Average,299,35,11.71,88.29,16,4.01,5.33,81.18
+PERF0014,SUP014,Urban Home Goods,Reliable,176,9,5.11,94.89,10,4.82,1.8,80.71
+PERF0015,SUP015,Nova Beauty Supply,Average,139,23,16.55,83.45,10,4.34,3.77,81.42
+PERF0016,SUP016,Keystone Office Products,Reliable,176,7,3.98,96.02,6,4.92,1.9,91.45
+PERF0017,SUP017,Riverstone Traders,Delayed,118,23,19.49,80.51,30,3.77,7.59,51.32
+PERF0018,SUP018,Summit Industrial,Average,183,19,10.38,89.62,15,4.05,3.81,81.15
+PERF0019,SUP019,MetroGoods Wholesale,Reliable,189,7,3.7,96.3,9,4.81,0.93,84.46
+PERF0020,SUP020,Titan Manufacturing,Delayed,170,45,26.47,73.53,20,3.35,5.53,61.26

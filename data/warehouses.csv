@@ -1,9 +1,9 @@
-warehouse_id,warehouse_location,capacity,current_utilization,manager_name
-WH001,"Dallas, TX",100000,88.71,Avery Johnson
-WH002,"Chicago, IL",85000,86.04,Sophia Martinez
-WH003,"Atlanta, GA",90000,64.16,Daniel Lee
-WH004,"Seattle, WA",75000,56.28,Mia Thompson
-WH005,"New York, NY",95000,67.62,Ethan Brown
-WH006,"Los Angeles, CA",110000,65.71,Olivia Davis
-WH007,"Phoenix, AZ",70000,63.44,Noah Wilson
-WH008,"Miami, FL",80000,92.72,Emma Garcia
+warehouse_id,warehouse_name,warehouse_location,capacity,current_utilization,manager_name
+WH001,Dallas Distribution Center,"Dallas, TX",100000,88.5,Avery Johnson
+WH002,Chicago Fulfillment Center,"Chicago, IL",85000,91.2,Sophia Martinez
+WH003,Atlanta Regional Warehouse,"Atlanta, GA",90000,72.4,Daniel Lee
+WH004,Seattle Distribution Hub,"Seattle, WA",75000,68.9,Mia Thompson
+WH005,New York Metro DC,"New York, NY",95000,96.8,Ethan Brown
+WH006,Los Angeles Import Hub,"Los Angeles, CA",110000,94.5,Olivia Davis
+WH007,Phoenix Regional DC,"Phoenix, AZ",70000,57.3,Noah Wilson
+WH008,Miami Export Hub,"Miami, FL",80000,83.6,Emma Garcia

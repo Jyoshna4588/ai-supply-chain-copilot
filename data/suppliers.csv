@@ -1,21 +1,21 @@
-supplier_id,supplier_name,country,lead_time_days,quality_rating,on_time_delivery_rate,contact_email
-SUP001,Alpha Manufacturing,Vietnam,8,3.54,77.7,contact1@alphamanufacturing.com
-SUP002,BrightSource Logistics,Mexico,9,4.6,88.95,contact2@brightsourcelogistics.com
-SUP003,CoreTech Supplies,China,7,4.39,70.89,contact3@coretechsupplies.com
-SUP004,Delta Components,USA,11,3.85,86.86,contact4@deltacomponents.com
-SUP005,Evergreen Packaging,China,11,4.57,89.64,contact5@evergreenpackaging.com
-SUP006,FastLine Distribution,India,12,4.17,77.79,contact6@fastlinedistribution.com
-SUP007,Global Parts Co,USA,29,4.71,89.55,contact7@globalpartsco.com
-SUP008,Horizon Industrial,Canada,13,3.73,96.8,contact8@horizonindustrial.com
-SUP009,Innovex Materials,Canada,8,3.64,72.71,contact9@innovexmaterials.com
-SUP010,JetStream Suppliers,Canada,24,3.9,71.22,contact10@jetstreamsuppliers.com
-SUP011,Keystone Electronics,India,22,3.69,95.82,contact11@keystoneelectronics.com
-SUP012,Liberty Wholesale,USA,22,3.94,87.6,contact12@libertywholesale.com
-SUP013,MetroGoods,Canada,23,3.79,71.95,contact13@metrogoods.com
-SUP014,Nova Retail Supply,Vietnam,12,4.66,97.59,contact14@novaretailsupply.com
-SUP015,Orion Components,Mexico,8,4.07,82.7,contact15@orioncomponents.com
-SUP016,PrimeSource,Canada,10,4.06,75.87,contact16@primesource.com
-SUP017,Quantum Packaging,Canada,27,4.9,88.14,contact17@quantumpackaging.com
-SUP018,Riverstone Traders,China,25,3.76,90.42,contact18@riverstonetraders.com
-SUP019,Summit Supply Group,Mexico,19,4.07,97.71,contact19@summitsupplygroup.com
-SUP020,Titan Manufacturing,Vietnam,27,4.34,89.17,contact20@titanmanufacturing.com
+supplier_id,supplier_name,country,risk_profile,lead_time_days,quality_rating,on_time_delivery_rate,contact_email
+SUP001,Dell Technologies,USA,Reliable,6,4.57,92.15,supplychain@delltechnologies.com
+SUP002,HP Inc.,USA,Reliable,8,4.46,92.84,supplychain@hpinc.com
+SUP003,Lenovo Group,China,Average,18,4.1,80.96,supplychain@lenovogroup.com
+SUP004,Samsung Electronics,South Korea,Reliable,5,4.54,92.56,supplychain@samsungelectronics.com
+SUP005,Logitech,Switzerland,Average,19,3.94,80.29,supplychain@logitech.com
+SUP006,Sony Corporation,Japan,Delayed,35,3.6,69.13,supplychain@sonycorporation.com
+SUP007,Canon Inc.,Japan,Average,14,3.8,88.9,supplychain@canoninc.com
+SUP008,LG Electronics,South Korea,Reliable,7,4.6,96.19,supplychain@lgelectronics.com
+SUP009,Apex Packaging,Mexico,Delayed,22,3.89,65.66,supplychain@apexpackaging.com
+SUP010,Global Textile Supply,Vietnam,Delayed,21,3.29,63.58,supplychain@globaltextilesupply.com
+SUP011,FreshSource Foods,USA,Average,15,4.36,86.64,supplychain@freshsourcefoods.com
+SUP012,Prime Auto Parts,Canada,Reliable,12,4.98,95.22,supplychain@primeautoparts.com
+SUP013,MedLife Supplies,India,Average,16,4.01,80.87,supplychain@medlifesupplies.com
+SUP014,Urban Home Goods,USA,Reliable,10,4.82,95.46,supplychain@urbanhomegoods.com
+SUP015,Nova Beauty Supply,France,Average,10,4.34,87.27,supplychain@novabeautysupply.com
+SUP016,Keystone Office Products,USA,Reliable,6,4.92,97.13,supplychain@keystoneofficeproducts.com
+SUP017,Riverstone Traders,India,Delayed,30,3.77,66.73,supplychain@riverstonetraders.com
+SUP018,Summit Industrial,USA,Average,15,4.05,81.79,supplychain@summitindustrial.com
+SUP019,MetroGoods Wholesale,Mexico,Reliable,9,4.81,96.21,supplychain@metrogoodswholesale.com
+SUP020,Titan Manufacturing,China,Delayed,20,3.35,72.36,supplychain@titanmanufacturing.com
