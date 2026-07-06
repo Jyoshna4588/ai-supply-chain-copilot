@@ -1,0 +1,9 @@
+warehouse_id,warehouse_location,capacity,current_utilization,manager_name
+WH001,"Dallas, TX",100000,88.71,Avery Johnson
+WH002,"Chicago, IL",85000,86.04,Sophia Martinez
+WH003,"Atlanta, GA",90000,64.16,Daniel Lee
+WH004,"Seattle, WA",75000,56.28,Mia Thompson
+WH005,"New York, NY",95000,67.62,Ethan Brown
+WH006,"Los Angeles, CA",110000,65.71,Olivia Davis
+WH007,"Phoenix, AZ",70000,63.44,Noah Wilson
+WH008,"Miami, FL",80000,92.72,Emma Garcia
