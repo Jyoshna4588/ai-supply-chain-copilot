@@ -1,16 +1,21 @@
-from pathlib import Path
-import pandas as pd
-
-BASE_DIR = Path(__file__).resolve().parent.parent.parent.parent
-DATA_DIR = BASE_DIR / "data"
+from app.repositories.inventory_repository import InventoryRepository
 
 
 def get_low_stock_inventory(limit: int = 20):
-    inventory_df = pd.read_csv(DATA_DIR / "inventory.csv")
-    products_df = pd.read_csv(DATA_DIR / "products.csv")
+
+    inventory_df = InventoryRepository.get_inventory()
+
+    products_df = InventoryRepository.get_products()
 
     merged_df = inventory_df.merge(
-        products_df[["product_id", "product_name", "category", "brand"]],
+        products_df[
+            [
+                "product_id",
+                "product_name",
+                "category",
+                "brand",
+            ]
+        ],
         on="product_id",
         how="left",
     )

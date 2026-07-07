@@ -2,10 +2,12 @@ from fastapi import FastAPI
 
 from app.api import inventory
 
+from app.config.settings import settings
+
 app = FastAPI(
-    title="AI-Powered Supply Chain Copilot",
+    title=settings.app_name,
     description="Backend API for Supply Chain AI Project",
-    version="1.0.0",
+    version=settings.app_version,
 )
 
 app.include_router(inventory.router)
