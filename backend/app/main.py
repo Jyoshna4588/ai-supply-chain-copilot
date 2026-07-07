@@ -4,6 +4,8 @@ from app.api import inventory
 
 from app.config.settings import settings
 
+from app.api import supplier
+
 app = FastAPI(
     title=settings.app_name,
     description="Backend API for Supply Chain AI Project",
@@ -11,6 +13,8 @@ app = FastAPI(
 )
 
 app.include_router(inventory.router)
+
+app.include_router(supplier.router)
 
 
 @app.get("/")
