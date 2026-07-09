@@ -1,32 +1,33 @@
-from app.repositories.inventory_repository import InventoryRepository
+from app.config.settings import settings
 from app.core.logger import logger
+from app.repositories.inventory_bigquery_repository import InventoryBigQueryRepository
+from app.repositories.inventory_repository import InventoryRepository
+
 
 def get_low_stock_inventory(limit: int = 20):
+    logger.info(f"Fetching low-stock inventory using data_source={settings.data_source}")
 
-    logger.info("Fetching inventory data")
+    if settings.data_source == "bigquery":
+        repository = InventoryBigQueryRepository()
+
+        items = repository.get_low_stock_inventory(limit=limit)
+        count = repository.get_low_stock_count()
+
+        logger.info(f"Returning {len(items)} low-stock products from BigQuery")
+
+        return {
+            "count": count,
+            "items": items,
+        }
 
     inventory_df = InventoryRepository.get_inventory()
-
-    logger.info("Fetching product data")
-
     products_df = InventoryRepository.get_products()
 
-    logger.info("Merging inventory and product data")
-
     merged_df = inventory_df.merge(
-        products_df[
-            [
-                "product_id",
-                "product_name",
-                "category",
-                "brand",
-            ]
-        ],
+        products_df[["product_id", "product_name", "category", "brand"]],
         on="product_id",
         how="left",
     )
-
-    logger.info("Filtering low-stock inventory")
 
     low_stock_df = merged_df[
         merged_df["available_stock"] < merged_df["safety_stock"]
@@ -46,7 +47,7 @@ def get_low_stock_inventory(limit: int = 20):
         ]
     ].head(limit)
 
-    logger.info(f"Returning {len(result)} low-stock products")
+    logger.info(f"Returning {len(result)} low-stock products from CSV")
 
     return {
         "count": len(low_stock_df),

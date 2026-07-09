@@ -10,6 +10,8 @@ from app.api import purchase_order
 
 from app.core.middleware import RequestLoggingMiddleware
 
+from app.core.exceptions import global_exception_handler
+
 app = FastAPI(
     title=settings.app_name,
     description="Backend API for Supply Chain AI Project",
@@ -17,6 +19,8 @@ app = FastAPI(
 )
 
 app.add_middleware(RequestLoggingMiddleware)
+
+app.add_exception_handler(Exception, global_exception_handler)
 
 app.include_router(inventory.router)
 
