@@ -1,111 +1,95 @@
-# 🚀 AI-Powered Supply Chain Copilot
+# AI-Powered Supply Chain Copilot
 
-An end-to-end **AI-powered supply chain decision-support application** that combines structured operational data, natural-language analytics, Retrieval-Augmented Generation (RAG), and multi-agent AI workflows.
+I built this project to explore how Generative AI can be used alongside traditional supply chain analytics.
 
-The application enables supply chain professionals to monitor operational KPIs and ask natural-language questions across **inventory, supplier performance, procurement, demand forecasting, logistics, warehouse capacity, and business documents**.
+In most supply chain environments, operational data lives in systems and databases, while information such as supplier terms, procurement policies, and SOPs lives in separate documents. I wanted to build one application where a user could ask a supply chain question in plain English and get an answer using either operational data, business documents, or both.
 
-The project demonstrates how **Supply Chain + Data Analytics + Generative AI** can be integrated into a practical decision-support system.
+The application currently covers inventory, supplier performance, procurement, demand forecasting, logistics, warehouse capacity, and document-based questions.
 
----
+## What the application does
 
-## 📸 Application Preview
+The project has two main parts.
 
-### Executive Supply Chain Control Tower
+The first is a supply chain dashboard that gives an overview of KPIs such as low-stock products, supplier delays, open purchase orders, shipment status, warehouse utilization, and forecast accuracy.
 
-The dashboard provides a centralized operational view of inventory, suppliers, purchasing, logistics, warehouse operations, and demand planning.
+The second is the AI Copilot. A user can ask questions such as:
+
+- Which supplier has the highest delay rate?
+- Which products have the highest forecasted demand?
+- What are the delivery requirements in the Apex Packaging supplier contract?
+- Which supplier has the highest delay rate, and based on its contract and our procurement policy, what action should we take?
+
+Depending on the question, the backend can query BigQuery, retrieve information from documents through RAG, or use multiple agents together.
+
+## Application
+
+### Supply Chain Control Tower
+
+This is the main dashboard I built to bring the major supply chain KPIs into one view.
 
 ![Executive Overview](docs/screenshots/1-Executive%20Overview.png)
 
-### Operational Analytics
-
-Supplier risk, inventory health, and procurement trends are monitored through interactive analytics.
+The operational analytics section shows supplier delay rates, inventory status, and purchase-order trends.
 
 ![Operational Analytics](docs/screenshots/2-Dashboard(1).png)
 
-Warehouse utilization, shipment status, forecast accuracy, and recommended operational actions provide additional decision-support capabilities.
+I also added warehouse utilization, shipment status, forecast accuracy, and recommended actions.
 
-![Supply Chain Analytics](docs/screenshots/3-Dashboard(2).png)
+![Dashboard Analytics](docs/screenshots/3-Dashboard(2).png)
 
----
+## AI Copilot
 
-## 🤖 AI Supply Chain Copilot
+The Copilot sits on top of the supply chain data and lets the user work with it through natural-language questions.
 
-The AI Copilot allows users to interact with supply chain data and documents using natural language.
+For structured questions, the application generates SQL, validates it, queries BigQuery, and returns the result in a business-friendly format.
 
-Depending on the question, the system can analyze structured BigQuery data, retrieve relevant business documents, or coordinate multiple AI agents to generate a contextual response.
+### Supplier analysis
 
-### Supplier Performance Analysis
-
-The Copilot can analyze supplier performance metrics and identify suppliers requiring attention.
-
-Example:
-
-> **Which supplier has the highest delay rate?**
-
-The system queries operational data and identifies the supplier with the highest recorded delay percentage.
+For example, I can ask which supplier currently has the highest delay rate.
 
 ![Supplier Analysis](docs/screenshots/4-Example%20Questions.png)
 
-### Demand Forecasting Analysis
+### Demand forecasting
 
-The Demand Forecasting Agent analyzes forecast data and identifies products with the highest expected demand.
-
-Example:
-
-> **Which products have the highest forecasted demand?**
+The Copilot can also work with forecast data and identify products with the highest forecasted demand.
 
 ![Demand Forecasting](docs/screenshots/5-Example%20Questions.png)
 
-### RAG-Based Document Retrieval
+### Supplier contracts and policies
 
-The Copilot can retrieve information from unstructured supply chain documents such as supplier contracts, procurement policies, and SOPs.
+I also wanted the application to work with information that normally would not be stored in a database.
 
-Example:
+I created sample supplier contracts, procurement policies, and SOPs and built a RAG pipeline using Gemini embeddings and Vertex AI Vector Search.
 
-> **What are the delivery requirements in the Apex Packaging supplier contract?**
+This allows questions such as:
 
-Relevant document chunks are retrieved through **Vertex AI Vector Search** and used by Gemini to generate a grounded response.
+> What are the delivery requirements in the Apex Packaging supplier contract?
 
-![Document Retrieval](docs/screenshots/6-Example%20Questions.png)
+![Contract Retrieval](docs/screenshots/6-Example%20Questions.png)
 
-### Multi-Agent Decision Support
+### Combining data and documents
 
-The system can also combine structured operational analytics with information retrieved from business documents.
+One of the main workflows I wanted to test was whether the application could combine an operational issue with the relevant business documents.
 
-Example:
+For example:
 
-> **Which supplier has the highest delay rate, and based on its contract and our procurement policy, what action should we take?**
+> Which supplier has the highest delay rate, and based on its contract and our procurement policy, what action should we take?
 
-For this workflow, the application combines supplier performance data with contract and procurement-policy information to generate recommended actions.
+For this question, the system first identifies the supplier from the operational data and then uses the relevant contract and procurement-policy information to provide the next actions.
 
-![Multi-Agent Decision Support](docs/screenshots/7-Example%20Questions.png)
+![Multi-Agent Analysis](docs/screenshots/7-Example%20Questions.png)
 
----
+## How I built it
 
-## ✨ Key Features
+The frontend is built with React and Vite, and the backend is built with FastAPI.
 
-- **Natural-Language Supply Chain Analytics**
-- **AI-Powered Supply Chain Control Tower**
-- **BigQuery-Based Operational Analytics**
-- **Multi-Agent AI Orchestration with LangGraph**
-- **Retrieval-Augmented Generation (RAG)**
-- **Vertex AI Vector Search**
-- **Supplier Contract & Policy Retrieval**
-- **Inventory and Replenishment Analysis**
-- **Supplier Performance Analysis**
-- **Demand Forecasting Analysis**
-- **Procurement Decision Support**
-- **Warehouse Capacity Monitoring**
-- **Logistics and Shipment Analytics**
-- **Conversation Memory for Follow-Up Questions**
-- **Generated SQL Transparency**
-- **Containerized Cloud Deployment**
+I used BigQuery as the structured data layer. Gemini is used for the GenAI parts of the application, while Vertex AI Vector Search supports document retrieval.
 
----
+For orchestration, I used LangGraph with separate agents for inventory, suppliers, demand forecasting, procurement, and document retrieval. The supervisor routes the question to the appropriate workflow and can use more than one agent when a question requires both structured data and document context.
 
-## 🧠 Multi-Agent Architecture
+The application is containerized with Docker and the frontend and backend are deployed separately on Google Cloud Run.
 
-The application uses **LangGraph** to orchestrate specialized supply chain AI agents.
+## Architecture
 
 ```text
                          React Dashboard
@@ -116,190 +100,32 @@ The application uses **LangGraph** to orchestrate specialized supply chain AI ag
                                 v
                       LangGraph Supervisor
                                 |
-          +---------------------+---------------------+
-          |                     |                     |
-          v                     v                     v
-   Inventory Agent       Supplier Agent       Procurement Agent
-          |                     |                     |
-          |              +------+-------+             |
-          |              |              |             |
-          v              v              v             v
-      BigQuery    Demand Forecast   Document Retrieval
-                         Agent             Agent
-                           |                |
-                           v                v
-                       BigQuery      Vertex AI Vector Search
-                                            |
-                                            v
-                                          Gemini
+       +------------+-----------+-----------+------------+
+       |            |           |           |            |
+       v            v           v           v            v
+   Inventory     Supplier     Demand    Procurement    Document
+     Agent        Agent      Forecast      Agent       Retrieval
+                              Agent                     Agent
+       |            |           |           |            |
+       +------------+-----------+-----------+            |
+                    |                                    |
+                    v                                    v
+                 BigQuery                      Vertex AI Vector Search
+                                                         |
+                                                         v
+                                                       Gemini
 ```
 
-The supervisor interprets the user's question and coordinates the appropriate specialist workflow.
+## Tech stack
 
-The specialist agents focus on:
+**Backend:** Python, FastAPI, Pydantic  
+**Frontend:** React, Vite, JavaScript  
+**Data:** Google BigQuery, SQL  
+**AI:** Gemini, Vertex AI, LangGraph, LangChain  
+**RAG:** Gemini Embeddings, Vertex AI Vector Search  
+**Deployment:** Docker, Google Cloud Run
 
-- **Inventory Agent** — inventory levels, stock risk, and replenishment
-- **Supplier Agent** — supplier performance, reliability, and delays
-- **Demand Forecasting Agent** — forecast demand and forecast performance
-- **Procurement Agent** — purchasing and procurement-related analysis
-- **Document Retrieval Agent** — contracts, policies, and SOP retrieval
-
-Complex questions can combine structured analytics and document retrieval to provide broader decision support.
-
----
-
-## 📚 RAG Pipeline
-
-The Retrieval-Augmented Generation pipeline allows the Copilot to answer questions using unstructured supply chain documents.
-
-```text
-Supplier Contracts / Procurement Policies / SOPs
-                       |
-                       v
-                Document Ingestion
-                       |
-                       v
-                  Text Chunking
-                       |
-                       v
-               Gemini Embeddings
-                       |
-                       v
-             Vertex AI Vector Search
-                       |
-                       v
-              Relevant Document Chunks
-                       |
-                       v
-                     Gemini
-                       |
-                       v
-                Grounded Response
-```
-
-This enables questions involving contractual requirements, procurement procedures, supplier-management policies, and operational SOPs.
-
----
-
-## 🏗️ System Architecture
-
-```text
-User
- |
- v
-React / Vite Dashboard
- |
- v
-FastAPI REST API
- |
- v
-LangGraph Multi-Agent System
- |
- +------------------------+
- |                        |
- v                        v
-Structured Data       Unstructured Documents
- |                        |
- v                        v
-BigQuery              RAG Pipeline
-                          |
-                          v
-                 Vertex AI Vector Search
-                          |
-                          v
-                        Gemini
- |
- v
-AI-Generated Decision Support
-```
-
----
-
-## 🛠️ Technology Stack
-
-### Backend
-- Python
-- FastAPI
-- Pydantic
-- Uvicorn
-
-### Generative AI
-- Gemini
-- Vertex AI
-- LangGraph
-- LangChain
-
-### Data & Analytics
-- Google BigQuery
-- SQL
-- Python
-
-### RAG
-- Gemini Embeddings
-- Vertex AI Vector Search
-- PDF document ingestion
-- Semantic retrieval
-
-### Frontend
-- React
-- Vite
-- JavaScript
-- Interactive data visualizations
-
-### Cloud & Deployment
-- Google Cloud Platform
-- Google Cloud Run
-- Docker
-- Artifact/Cloud Build workflow
-
----
-
-## 📊 Supply Chain Domains
-
-The application supports analytics and decision-support workflows across:
-
-- Inventory Management
-- Replenishment
-- Supplier Performance
-- Procurement
-- Purchase Orders
-- Demand Forecasting
-- Logistics
-- Shipment Monitoring
-- Warehouse Capacity
-- Supply Risk
-- Supplier Contracts
-- Procurement Policies
-- Operational SOPs
-
----
-
-## 💬 Example Questions
-
-Users can ask questions such as:
-
-```text
-Which supplier has the highest delay rate?
-
-Which products have the highest forecasted demand?
-
-What are the delivery requirements in the Apex Packaging supplier contract?
-
-What does our procurement policy say about repeated supplier delays?
-
-Which warehouses have the highest utilization?
-
-Which purchase orders are delayed?
-
-Which products require replenishment?
-
-Which supplier has the highest delay rate, and based on its contract
-and our procurement policy, what action should we take?
-```
-
----
-
-## 📁 Project Structure
+## Project structure
 
 ```text
 SupplyChainAI/
@@ -313,7 +139,6 @@ SupplyChainAI/
 │   │   ├── repositories/
 │   │   ├── services/
 │   │   └── main.py
-│   │
 │   ├── Dockerfile
 │   └── requirements.txt
 │
@@ -323,147 +148,40 @@ SupplyChainAI/
 │   └── package.json
 │
 ├── documents/
-│   └── Synthetic supply chain documents
-│
 ├── docs/
 │   └── screenshots/
-│
 ├── scripts/
 ├── tests/
 ├── .env.example
-├── .gitignore
 └── README.md
 ```
 
----
+## Running locally
 
-## ⚙️ Environment Configuration
+Clone the repository and create a `.env` file using `.env.example` as the reference.
 
-Create a `.env` file based on `.env.example`.
-
-Example:
-
-```env
-APP_NAME=AI-Powered Supply Chain Copilot
-APP_VERSION=1.0.0
-ENVIRONMENT=development
-
-DATA_SOURCE=bigquery
-
-GCP_PROJECT_ID=your-gcp-project-id
-BIGQUERY_DATASET=your-bigquery-dataset
-VERTEX_REGION=us-central1
-
-GEMINI_MODEL=gemini-2.5-flash
-
-RAG_GCS_BUCKET=your-gcs-bucket
-RAG_EMBEDDING_MODEL=gemini-embedding-001
-RAG_EMBEDDING_DIMENSION=768
-
-RAG_INDEX_ID=your-vector-search-index-id
-RAG_INDEX_ENDPOINT_ID=your-vector-search-endpoint-id
-RAG_DEPLOYED_INDEX_ID=your-deployed-index-id
-
-RAG_TOP_K=5
-RAG_METADATA_PATH=backend/rag_output/metadata.json
-```
-
-Do not commit your actual `.env` file or cloud credentials to source control.
-
----
-
-## ▶️ Running the Backend Locally
-
-Navigate to the backend:
+For the backend:
 
 ```bash
 cd backend
-```
-
-Install dependencies:
-
-```bash
 pip install -r requirements.txt
-```
-
-Start FastAPI:
-
-```bash
 uvicorn app.main:app --reload
 ```
 
-The FastAPI Swagger interface will be available locally through the `/docs` endpoint.
-
----
-
-## 💻 Running the Frontend Locally
-
-Navigate to the frontend:
+For the frontend:
 
 ```bash
 cd frontend
-```
-
-Install dependencies:
-
-```bash
 npm install
-```
-
-Start the Vite development server:
-
-```bash
 npm run dev
 ```
 
----
+The Google Cloud and Vertex AI resources also need to be configured for BigQuery and RAG functionality.
 
-## ☁️ Cloud Deployment
+## About the data
 
-The application is containerized using **Docker** and deployed using **Google Cloud Run**.
+I built this project independently as a portfolio and learning project.
 
-Separate Cloud Run services are used for the frontend and backend, allowing the React application to communicate with the FastAPI API through HTTPS.
+All supplier names, inventory records, purchase orders, forecasts, shipments, contracts, policies, SOPs, and other business data used in the application are synthetic/sample data created for the project.
 
-The backend integrates with:
-
-- Google BigQuery
-- Vertex AI
-- Gemini
-- Vertex AI Vector Search
-
----
-
-## 🔐 Security
-
-Sensitive configuration is excluded from the repository using `.gitignore`.
-
-The repository does not intentionally include:
-
-- `.env` files
-- Service-account credentials
-- Google Cloud authentication files
-- Local virtual environments
-- `node_modules`
-- Generated vector-search artifacts
-
-An `.env.example` file is provided to document the required configuration without exposing credentials or project-specific secrets.
-
----
-
-## 🧪 Data Disclaimer
-
-**This project was developed independently for learning and portfolio purposes.**
-
-All data, supplier names and information, contracts, procurement policies, SOPs, operational metrics, forecasts, purchase orders, inventory records, shipments, and business scenarios used in this project are **synthetic/sample data created specifically for demonstration purposes**.
-
-**No confidential, proprietary, personal, or internal data from any company or organization was used.**
-
----
-
-## 🎯 Project Purpose
-
-This project demonstrates the integration of:
-
-**Supply Chain Management + Data Analytics + Generative AI + Cloud Engineering**
-
-The objective is to show how modern AI technologies can complement traditional supply chain analytics by allowing users to interact with both structured operational data and unstructured business documents through a conversational decision-support interface.
+No confidential, proprietary, personal, or internal company data is used in this repository.
