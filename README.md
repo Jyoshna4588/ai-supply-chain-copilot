@@ -145,61 +145,37 @@ Relevant document context is then combined with the user's question to generate 
 \---
 
 
-
-\## 🏗️ Architecture
-
-
+## 🏗️ Architecture
 
 ```text
+                    React Dashboard
+                           |
+                           v
+                    FastAPI Backend
+                           |
+                           v
+                  LangGraph Supervisor
+                           |
+        +------------------+------------------+
+        |                  |                  |
+        v                  v                  v
+ Inventory Agent     Supplier Agent     Procurement Agent
+        |                  |                  |
+        +------------------+------------------+
+                           |
+              +------------+------------+
+              |                         |
+              v                         v
+           BigQuery             Document Retrieval
+                                        |
+                                        v
+                              Vertex AI Vector Search
+                                        |
+                                        v
+                                     Gemini
+```
 
-&#x20;                   React Dashboard
-
-&#x20;                          |
-
-&#x20;                          v
-
-&#x20;                   FastAPI Backend
-
-&#x20;                          |
-
-&#x20;                          v
-
-&#x20;                 LangGraph Supervisor
-
-&#x20;                          |
-
-&#x20;         +----------------+----------------+
-
-&#x20;         |                |                |
-
-&#x20;         v                v                v
-
-&#x20;    Inventory         Supplier         Procurement
-
-&#x20;      Agent             Agent             Agent
-
-&#x20;         |                |                |
-
-&#x20;         +--------+-------+-------+--------+
-
-&#x20;                  |               |
-
-&#x20;                  v               v
-
-&#x20;               BigQuery      Document Retrieval
-
-&#x20;                                  |
-
-&#x20;                                  v
-
-&#x20;                         Vertex AI Vector Search
-
-&#x20;                                  |
-
-&#x20;                                  v
-
-&#x20;                               Gemini
-
+The architecture supports both structured-data analytics and retrieval from unstructured supply chain documents.
 ```
 
 
